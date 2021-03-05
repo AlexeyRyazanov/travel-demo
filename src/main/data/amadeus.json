@@ -1,0 +1,4694 @@
+{
+   "content": {
+      "solutions": {
+         "107": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 830,
+                  "legs": [
+                     "50",
+                     "38",
+                     "79"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 236979,
+                  "pricePerPassenger": 236979
+               }
+            ]
+         },
+         "108": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "85"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 279566,
+                  "pricePerPassenger": 279566
+               }
+            ]
+         },
+         "133": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 1045,
+                  "legs": [
+                     "12",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 73420.38,
+                  "pricePerPassenger": 73420.38
+               }
+            ]
+         },
+         "144": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "37",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 230840,
+                  "pricePerPassenger": 230840
+               }
+            ]
+         },
+         "153": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 258056,
+                  "pricePerPassenger": 258056
+               }
+            ]
+         },
+         "185": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 1045,
+                  "legs": [
+                     "12",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 930,
+                  "legs": [
+                     "36",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 74860.23,
+                  "pricePerPassenger": 74860.23
+               }
+            ]
+         },
+         "197": {
+            "bound": [
+               {
+                  "airlineCode": "UX",
+                  "duration": 1185,
+                  "legs": [
+                     "33",
+                     "44",
+                     "73"
+                  ]
+               },
+               {
+                  "airlineCode": "UX",
+                  "duration": 1090,
+                  "legs": [
+                     "21",
+                     "70",
+                     "76"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 64241,
+                  "pricePerPassenger": 64241
+               }
+            ]
+         },
+         "199": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 208370,
+                  "pricePerPassenger": 208370
+               }
+            ]
+         },
+         "200": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 915,
+                  "legs": [
+                     "56",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LH",
+                  "duration": 1285,
+                  "legs": [
+                     "89",
+                     "130",
+                     "119"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 235995,
+                  "pricePerPassenger": 235995
+               }
+            ]
+         },
+         "201": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "UX",
+                  "duration": 1090,
+                  "legs": [
+                     "21",
+                     "70",
+                     "76"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 116793,
+                  "pricePerPassenger": 116793
+               }
+            ]
+         },
+         "202": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AM",
+                  "duration": 1520,
+                  "legs": [
+                     "52",
+                     "53",
+                     "27"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 256185,
+                  "pricePerPassenger": 256185
+               }
+            ]
+         },
+         "203": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1110,
+                  "legs": [
+                     "78",
+                     "88",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1050,
+                  "legs": [
+                     "100",
+                     "124",
+                     "92"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 83865.07,
+                  "pricePerPassenger": 83865.07
+               }
+            ]
+         },
+         "204": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "TK",
+                  "duration": 1380,
+                  "legs": [
+                     "123",
+                     "98",
+                     "132"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 146503,
+                  "pricePerPassenger": 146503
+               }
+            ]
+         },
+         "205": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1365,
+                  "legs": [
+                     "93",
+                     "90",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 965,
+                  "legs": [
+                     "100",
+                     "106",
+                     "96"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 89785.26,
+                  "pricePerPassenger": 89785.26
+               }
+            ]
+         },
+         "206": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1340,
+                  "legs": [
+                     "71",
+                     "14",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 47981,
+                  "pricePerPassenger": 47981
+               }
+            ]
+         },
+         "207": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1110,
+                  "legs": [
+                     "78",
+                     "88",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 84152.56,
+                  "pricePerPassenger": 84152.56
+               }
+            ]
+         },
+         "208": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "107",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 72687,
+                  "pricePerPassenger": 72687
+               }
+            ]
+         },
+         "209": {
+            "bound": [
+               {
+                  "airlineCode": "AM",
+                  "duration": 1570,
+                  "legs": [
+                     "51",
+                     "40",
+                     "83"
+                  ]
+               },
+               {
+                  "airlineCode": "AM",
+                  "duration": 1405,
+                  "legs": [
+                     "52",
+                     "113",
+                     "126"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 78609,
+                  "pricePerPassenger": 78609
+               }
+            ]
+         },
+         "210": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 895,
+                  "legs": [
+                     "100",
+                     "94"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 134070,
+                  "pricePerPassenger": 134070
+               }
+            ]
+         },
+         "211": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 1370,
+                  "legs": [
+                     "7",
+                     "120",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1050,
+                  "legs": [
+                     "100",
+                     "124",
+                     "92"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 106722,
+                  "pricePerPassenger": 106722
+               }
+            ]
+         },
+         "212": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AM",
+                  "duration": 1520,
+                  "legs": [
+                     "52",
+                     "53",
+                     "27"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 153361,
+                  "pricePerPassenger": 153361
+               }
+            ]
+         },
+         "213": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 965,
+                  "legs": [
+                     "100",
+                     "106",
+                     "96"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 109238.73,
+                  "pricePerPassenger": 109238.73
+               }
+            ]
+         },
+         "214": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 2255,
+                  "legs": [
+                     "131",
+                     "9",
+                     "61"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1390,
+                  "legs": [
+                     "72",
+                     "0",
+                     "55"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 49120,
+                  "pricePerPassenger": 49120
+               }
+            ]
+         },
+         "215": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 1975,
+                  "legs": [
+                     "36",
+                     "118",
+                     "116"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 72001.67,
+                  "pricePerPassenger": 72001.67
+               }
+            ]
+         },
+         "216": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1330,
+                  "legs": [
+                     "100",
+                     "105"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 71906,
+                  "pricePerPassenger": 71906
+               }
+            ]
+         },
+         "217": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 1370,
+                  "legs": [
+                     "7",
+                     "120",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 107897.88,
+                  "pricePerPassenger": 107897.88
+               }
+            ]
+         },
+         "218": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 219782,
+                  "pricePerPassenger": 219782
+               }
+            ]
+         },
+         "219": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "TX",
+                  "duration": 915,
+                  "legs": [
+                     "109",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 357986,
+                  "pricePerPassenger": 357986
+               }
+            ]
+         },
+         "220": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "110",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 830,
+                  "legs": [
+                     "50",
+                     "38",
+                     "79"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 288659,
+                  "pricePerPassenger": 288659
+               }
+            ]
+         },
+         "221": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "37",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 930,
+                  "legs": [
+                     "26",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 292671,
+                  "pricePerPassenger": 292671
+               }
+            ]
+         },
+         "222": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 116960,
+                  "pricePerPassenger": 116960
+               }
+            ]
+         },
+         "223": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1050,
+                  "legs": [
+                     "100",
+                     "124",
+                     "92"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 106788.88,
+                  "pricePerPassenger": 106788.88
+               }
+            ]
+         },
+         "224": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "LH",
+                  "duration": 1285,
+                  "legs": [
+                     "89",
+                     "130",
+                     "119"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 357013,
+                  "pricePerPassenger": 357013
+               }
+            ]
+         },
+         "225": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "UX",
+                  "duration": 1090,
+                  "legs": [
+                     "21",
+                     "70",
+                     "76"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 79306,
+                  "pricePerPassenger": 79306
+               }
+            ]
+         },
+         "226": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LH",
+                  "duration": 1285,
+                  "legs": [
+                     "89",
+                     "130",
+                     "119"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 74205,
+                  "pricePerPassenger": 74205
+               }
+            ]
+         },
+         "227": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 115031,
+                  "pricePerPassenger": 115031
+               }
+            ]
+         },
+         "228": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 1040,
+                  "legs": [
+                     "103",
+                     "125",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 268928,
+                  "pricePerPassenger": 268928
+               }
+            ]
+         },
+         "229": {
+            "bound": [
+               {
+                  "airlineCode": "UX",
+                  "duration": 1185,
+                  "legs": [
+                     "33",
+                     "44",
+                     "73"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1330,
+                  "legs": [
+                     "100",
+                     "105"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 79966,
+                  "pricePerPassenger": 79966
+               }
+            ]
+         },
+         "23": {
+            "bound": [
+               {
+                  "airlineCode": "AM",
+                  "duration": 1570,
+                  "legs": [
+                     "51",
+                     "40",
+                     "83"
+                  ]
+               },
+               {
+                  "airlineCode": "AM",
+                  "duration": 1520,
+                  "legs": [
+                     "52",
+                     "53",
+                     "27"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 73878,
+                  "pricePerPassenger": 73878
+               }
+            ]
+         },
+         "230": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 354602,
+                  "pricePerPassenger": 354602
+               }
+            ]
+         },
+         "231": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 3045,
+                  "legs": [
+                     "133",
+                     "117",
+                     "102"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 70645,
+                  "pricePerPassenger": 70645
+               }
+            ]
+         },
+         "232": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 915,
+                  "legs": [
+                     "56",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "AM",
+                  "duration": 1520,
+                  "legs": [
+                     "52",
+                     "53",
+                     "27"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 136650,
+                  "pricePerPassenger": 136650
+               }
+            ]
+         },
+         "233": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1330,
+                  "legs": [
+                     "100",
+                     "105"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 109593,
+                  "pricePerPassenger": 109593
+               }
+            ]
+         },
+         "234": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "37",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 930,
+                  "legs": [
+                     "36",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 291521,
+                  "pricePerPassenger": 291521
+               }
+            ]
+         },
+         "235": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 3045,
+                  "legs": [
+                     "133",
+                     "104",
+                     "95"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 1100,
+                  "legs": [
+                     "26",
+                     "122",
+                     "126"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 67467.07,
+                  "pricePerPassenger": 67467.07
+               }
+            ]
+         },
+         "236": {
+            "bound": [
+               {
+                  "airlineCode": "DE",
+                  "duration": 1437,
+                  "legs": [
+                     "115",
+                     "134",
+                     "112",
+                     "87"
+                  ]
+               },
+               {
+                  "airlineCode": "DE",
+                  "duration": 1355,
+                  "legs": [
+                     "127",
+                     "128",
+                     "121",
+                     "99"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 124262.49,
+                  "pricePerPassenger": 124262.49
+               }
+            ]
+         },
+         "237": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "TK",
+                  "duration": 1380,
+                  "legs": [
+                     "123",
+                     "98",
+                     "132"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 254031,
+                  "pricePerPassenger": 254031
+               }
+            ]
+         },
+         "238": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 965,
+                  "legs": [
+                     "100",
+                     "106",
+                     "96"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 85064.28,
+                  "pricePerPassenger": 85064.28
+               }
+            ]
+         },
+         "239": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 3045,
+                  "legs": [
+                     "133",
+                     "117",
+                     "102"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 930,
+                  "legs": [
+                     "26",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 68414,
+                  "pricePerPassenger": 68414
+               }
+            ]
+         },
+         "240": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 830,
+                  "legs": [
+                     "50",
+                     "91",
+                     "54"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 236979,
+                  "pricePerPassenger": 236979
+               }
+            ]
+         },
+         "241": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 3045,
+                  "legs": [
+                     "133",
+                     "104",
+                     "95"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 930,
+                  "legs": [
+                     "36",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 72012,
+                  "pricePerPassenger": 72012
+               }
+            ]
+         },
+         "242": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "74",
+                     "22"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 1975,
+                  "legs": [
+                     "36",
+                     "118",
+                     "116"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 73811.7,
+                  "pricePerPassenger": 73811.7
+               }
+            ]
+         },
+         "243": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "74",
+                     "22"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1330,
+                  "legs": [
+                     "100",
+                     "105"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 113141,
+                  "pricePerPassenger": 113141
+               }
+            ]
+         },
+         "244": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "TX",
+                  "duration": 915,
+                  "legs": [
+                     "109",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 255389,
+                  "pricePerPassenger": 255389
+               }
+            ]
+         },
+         "245": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "74",
+                     "22"
+                  ]
+               },
+               {
+                  "airlineCode": "UX",
+                  "duration": 1090,
+                  "legs": [
+                     "21",
+                     "70",
+                     "76"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 122556,
+                  "pricePerPassenger": 122556
+               }
+            ]
+         },
+         "246": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 79395,
+                  "pricePerPassenger": 79395
+               }
+            ]
+         },
+         "247": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "74",
+                     "22"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 930,
+                  "legs": [
+                     "26",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 77448,
+                  "pricePerPassenger": 77448
+               }
+            ]
+         },
+         "248": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "107",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 930,
+                  "legs": [
+                     "26",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 66716,
+                  "pricePerPassenger": 66716
+               }
+            ]
+         },
+         "249": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "TK",
+                  "duration": 1380,
+                  "legs": [
+                     "123",
+                     "98",
+                     "132"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 113292,
+                  "pricePerPassenger": 113292
+               }
+            ]
+         },
+         "250": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "110",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 830,
+                  "legs": [
+                     "50",
+                     "38",
+                     "54"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 288659,
+                  "pricePerPassenger": 288659
+               }
+            ]
+         },
+         "251": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 930,
+                  "legs": [
+                     "36",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 119687,
+                  "pricePerPassenger": 119687
+               }
+            ]
+         },
+         "252": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 212352,
+                  "pricePerPassenger": 212352
+               }
+            ]
+         },
+         "253": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "TX",
+                  "duration": 915,
+                  "legs": [
+                     "109",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 212980,
+                  "pricePerPassenger": 212980
+               }
+            ]
+         },
+         "254": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 3045,
+                  "legs": [
+                     "133",
+                     "104",
+                     "95"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 1975,
+                  "legs": [
+                     "36",
+                     "118",
+                     "116"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 66431.45,
+                  "pricePerPassenger": 66431.45
+               }
+            ]
+         },
+         "255": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AM",
+                  "duration": 1520,
+                  "legs": [
+                     "52",
+                     "53",
+                     "27"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 111273,
+                  "pricePerPassenger": 111273
+               }
+            ]
+         },
+         "256": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 930,
+                  "legs": [
+                     "26",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 70152,
+                  "pricePerPassenger": 70152
+               }
+            ]
+         },
+         "257": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1195,
+                  "legs": [
+                     "72",
+                     "5",
+                     "101"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 53352,
+                  "pricePerPassenger": 53352
+               }
+            ]
+         },
+         "258": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "UX",
+                  "duration": 1090,
+                  "legs": [
+                     "21",
+                     "70",
+                     "76"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 75324,
+                  "pricePerPassenger": 75324
+               }
+            ]
+         },
+         "259": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "85"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 415792,
+                  "pricePerPassenger": 415792
+               }
+            ]
+         },
+         "260": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1385,
+                  "legs": [
+                     "62",
+                     "14",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1195,
+                  "legs": [
+                     "72",
+                     "5",
+                     "101"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 51230,
+                  "pricePerPassenger": 51230
+               }
+            ]
+         },
+         "261": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 1370,
+                  "legs": [
+                     "7",
+                     "120",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 965,
+                  "legs": [
+                     "100",
+                     "106",
+                     "96"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 109171.85,
+                  "pricePerPassenger": 109171.85
+               }
+            ]
+         },
+         "262": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 930,
+                  "legs": [
+                     "36",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 142054,
+                  "pricePerPassenger": 142054
+               }
+            ]
+         },
+         "263": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "TX",
+                  "duration": 915,
+                  "legs": [
+                     "109",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 238575,
+                  "pricePerPassenger": 238575
+               }
+            ]
+         },
+         "264": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1340,
+                  "legs": [
+                     "71",
+                     "14",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1195,
+                  "legs": [
+                     "72",
+                     "5",
+                     "29"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 47397,
+                  "pricePerPassenger": 47397
+               }
+            ]
+         },
+         "265": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "TX",
+                  "duration": 915,
+                  "legs": [
+                     "109",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 217012,
+                  "pricePerPassenger": 217012
+               }
+            ]
+         },
+         "266": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "UX",
+                  "duration": 1090,
+                  "legs": [
+                     "21",
+                     "70",
+                     "76"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 219617,
+                  "pricePerPassenger": 219617
+               }
+            ]
+         },
+         "267": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 995,
+                  "legs": [
+                     "71",
+                     "28",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 930,
+                  "legs": [
+                     "26",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 266724,
+                  "pricePerPassenger": 266724
+               }
+            ]
+         },
+         "268": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1110,
+                  "legs": [
+                     "78",
+                     "88",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 965,
+                  "legs": [
+                     "100",
+                     "106",
+                     "96"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 86286.46,
+                  "pricePerPassenger": 86286.46
+               }
+            ]
+         },
+         "269": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "UX",
+                  "duration": 1090,
+                  "legs": [
+                     "21",
+                     "70",
+                     "76"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 100617,
+                  "pricePerPassenger": 100617
+               }
+            ]
+         },
+         "270": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "37",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "TX",
+                  "duration": 915,
+                  "legs": [
+                     "109",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 388343,
+                  "pricePerPassenger": 388343
+               }
+            ]
+         },
+         "271": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "TK",
+                  "duration": 1380,
+                  "legs": [
+                     "123",
+                     "98",
+                     "132"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 151207,
+                  "pricePerPassenger": 151207
+               }
+            ]
+         },
+         "272": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1365,
+                  "legs": [
+                     "93",
+                     "90",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1050,
+                  "legs": [
+                     "100",
+                     "124",
+                     "92"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 87485.98,
+                  "pricePerPassenger": 87485.98
+               }
+            ]
+         },
+         "273": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1330,
+                  "legs": [
+                     "100",
+                     "105"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 93691,
+                  "pricePerPassenger": 93691
+               }
+            ]
+         },
+         "274": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1365,
+                  "legs": [
+                     "93",
+                     "90",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 87945.22,
+                  "pricePerPassenger": 87945.22
+               }
+            ]
+         },
+         "275": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 251780,
+                  "pricePerPassenger": 251780
+               }
+            ]
+         },
+         "276": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1340,
+                  "legs": [
+                     "71",
+                     "14",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1195,
+                  "legs": [
+                     "72",
+                     "5",
+                     "101"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 53434,
+                  "pricePerPassenger": 53434
+               }
+            ]
+         },
+         "277": {
+            "bound": [
+               {
+                  "airlineCode": "IB",
+                  "duration": 1910,
+                  "legs": [
+                     "111",
+                     "108",
+                     "97"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1330,
+                  "legs": [
+                     "100",
+                     "105"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 49610,
+                  "pricePerPassenger": 49610
+               }
+            ]
+         },
+         "278": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "LH",
+                  "duration": 1285,
+                  "legs": [
+                     "89",
+                     "130",
+                     "119"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 254130,
+                  "pricePerPassenger": 254130
+               }
+            ]
+         },
+         "279": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 3045,
+                  "legs": [
+                     "133",
+                     "104",
+                     "95"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 76441.45,
+                  "pricePerPassenger": 76441.45
+               }
+            ]
+         },
+         "280": {
+            "bound": [
+               {
+                  "airlineCode": "UX",
+                  "duration": 1185,
+                  "legs": [
+                     "33",
+                     "44",
+                     "73"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 88312,
+                  "pricePerPassenger": 88312
+               }
+            ]
+         },
+         "281": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 1040,
+                  "legs": [
+                     "103",
+                     "125",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 930,
+                  "legs": [
+                     "26",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 275268,
+                  "pricePerPassenger": 275268
+               }
+            ]
+         },
+         "282": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LH",
+                  "duration": 1285,
+                  "legs": [
+                     "89",
+                     "130",
+                     "119"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 210594,
+                  "pricePerPassenger": 210594
+               }
+            ]
+         },
+         "283": {
+            "bound": [
+               {
+                  "airlineCode": "LH",
+                  "duration": 1340,
+                  "legs": [
+                     "71",
+                     "114",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LH",
+                  "duration": 1285,
+                  "legs": [
+                     "89",
+                     "130",
+                     "119"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 469436,
+                  "pricePerPassenger": 469436
+               }
+            ]
+         },
+         "284": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "85"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 312970,
+                  "pricePerPassenger": 312970
+               }
+            ]
+         },
+         "285": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 100788,
+                  "pricePerPassenger": 100788
+               }
+            ]
+         },
+         "286": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 119062,
+                  "pricePerPassenger": 119062
+               }
+            ]
+         },
+         "287": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 895,
+                  "legs": [
+                     "100",
+                     "94"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 156758,
+                  "pricePerPassenger": 156758
+               }
+            ]
+         },
+         "288": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "37",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 290390,
+                  "pricePerPassenger": 290390
+               }
+            ]
+         },
+         "289": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1190,
+                  "legs": [
+                     "129",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AM",
+                  "duration": 1520,
+                  "legs": [
+                     "52",
+                     "53",
+                     "27"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 115256,
+                  "pricePerPassenger": 115256
+               }
+            ]
+         },
+         "290": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 915,
+                  "legs": [
+                     "56",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "TK",
+                  "duration": 1380,
+                  "legs": [
+                     "123",
+                     "98",
+                     "132"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 134603,
+                  "pricePerPassenger": 134603
+               }
+            ]
+         },
+         "291": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 1370,
+                  "legs": [
+                     "7",
+                     "120",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 52701.55,
+                  "pricePerPassenger": 52701.55
+               }
+            ]
+         },
+         "292": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 47904,
+                  "pricePerPassenger": 47904
+               }
+            ]
+         },
+         "293": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "37",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 895,
+                  "legs": [
+                     "100",
+                     "94"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 306114,
+                  "pricePerPassenger": 306114
+               }
+            ]
+         },
+         "294": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "TK",
+                  "duration": 1380,
+                  "legs": [
+                     "123",
+                     "98",
+                     "132"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 109309,
+                  "pricePerPassenger": 109309
+               }
+            ]
+         },
+         "295": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1050,
+                  "legs": [
+                     "100",
+                     "124",
+                     "92"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 82642.89,
+                  "pricePerPassenger": 82642.89
+               }
+            ]
+         },
+         "296": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 140928,
+                  "pricePerPassenger": 140928
+               }
+            ]
+         },
+         "297": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 1330,
+                  "legs": [
+                     "100",
+                     "105"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 67924,
+                  "pricePerPassenger": 67924
+               }
+            ]
+         },
+         "298": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1110,
+                  "legs": [
+                     "78",
+                     "88",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1390,
+                  "legs": [
+                     "72",
+                     "0",
+                     "55"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 84038.3,
+                  "pricePerPassenger": 84038.3
+               }
+            ]
+         },
+         "299": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "IB",
+                  "duration": 895,
+                  "legs": [
+                     "100",
+                     "94"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 130256,
+                  "pricePerPassenger": 130256
+               }
+            ]
+         },
+         "34": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1385,
+                  "legs": [
+                     "62",
+                     "14",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1195,
+                  "legs": [
+                     "72",
+                     "5",
+                     "29"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 45052,
+                  "pricePerPassenger": 45052
+               }
+            ]
+         },
+         "38": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1385,
+                  "legs": [
+                     "62",
+                     "14",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1390,
+                  "legs": [
+                     "72",
+                     "0",
+                     "55"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 44761,
+                  "pricePerPassenger": 44761
+               }
+            ]
+         },
+         "4": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1130,
+                  "legs": [
+                     "20",
+                     "41",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1195,
+                  "legs": [
+                     "72",
+                     "5",
+                     "29"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 47320,
+                  "pricePerPassenger": 47320
+               }
+            ]
+         },
+         "42": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 1040,
+                  "legs": [
+                     "49",
+                     "34",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 235965,
+                  "pricePerPassenger": 235965
+               }
+            ]
+         },
+         "45": {
+            "bound": [
+               {
+                  "airlineCode": "AC",
+                  "duration": 1385,
+                  "legs": [
+                     "62",
+                     "14",
+                     "63"
+                  ]
+               },
+               {
+                  "airlineCode": "AC",
+                  "duration": 1185,
+                  "legs": [
+                     "72",
+                     "58",
+                     "25"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 46994,
+                  "pricePerPassenger": 46994
+               }
+            ]
+         },
+         "48": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 930,
+                  "legs": [
+                     "36",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 74860.23,
+                  "pricePerPassenger": 74860.23
+               }
+            ]
+         },
+         "55": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "74",
+                     "22"
+                  ]
+               },
+               {
+                  "airlineCode": "KL",
+                  "duration": 930,
+                  "legs": [
+                     "36",
+                     "59",
+                     "45"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 77020.45,
+                  "pricePerPassenger": 77020.45
+               }
+            ]
+         },
+         "58": {
+            "bound": [
+               {
+                  "airlineCode": "AF",
+                  "duration": 825,
+                  "legs": [
+                     "17",
+                     "47"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 73420.38,
+                  "pricePerPassenger": 73420.38
+               }
+            ]
+         },
+         "61": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 48044,
+                  "pricePerPassenger": 48044
+               }
+            ]
+         },
+         "77": {
+            "bound": [
+               {
+                  "airlineCode": "KL",
+                  "duration": 1070,
+                  "legs": [
+                     "48",
+                     "74",
+                     "22"
+                  ]
+               },
+               {
+                  "airlineCode": "AF",
+                  "duration": 730,
+                  "legs": [
+                     "26",
+                     "4"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 75580.6,
+                  "pricePerPassenger": 75580.6
+               }
+            ]
+         },
+         "9": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 1050,
+                  "legs": [
+                     "71",
+                     "1",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 705,
+                  "legs": [
+                     "50",
+                     "65"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 233523,
+                  "pricePerPassenger": 233523
+               }
+            ]
+         },
+         "91": {
+            "bound": [
+               {
+                  "airlineCode": "LX",
+                  "duration": 835,
+                  "legs": [
+                     "15",
+                     "24"
+                  ]
+               },
+               {
+                  "airlineCode": "LX",
+                  "duration": 830,
+                  "legs": [
+                     "50",
+                     "38",
+                     "54"
+                  ]
+               }
+            ],
+            "agents": [
+               {
+                  "price": 236979,
+                  "pricePerPassenger": 236979
+               }
+            ]
+         }
+      },
+      "legs": {
+         "0": {
+            "from": "YYZ",
+            "to": "MUC",
+            "dateFrom": "2021-01-28T20:00:00",
+            "dateTo": "2021-01-29T09:50:00",
+            "duration": 470,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "846",
+            "aircraftType": "77W",
+            "terminalFrom": "1",
+            "terminalTo": "2"
+         },
+         "1": {
+            "from": "FRA",
+            "to": "ZRH",
+            "dateFrom": "2021-01-14T09:40:00",
+            "dateTo": "2021-01-14T10:30:00",
+            "duration": 50,
+            "dateAirline": "LX",
+            "OA": "LH",
+            "flightNumber": "3603",
+            "aircraftType": "32A",
+            "terminalFrom": "1"
+         },
+         "100": {
+            "from": "HAV",
+            "to": "MAD",
+            "dateFrom": "2021-01-28T14:50:00",
+            "dateTo": "2021-01-29T05:45:00",
+            "duration": 535,
+            "dateAirline": "IB",
+            "OA": "IB",
+            "flightNumber": "6620"
+         },
+         "101": {
+            "from": "FRA",
+            "to": "BER",
+            "dateFrom": "2021-01-29T07:45:00",
+            "dateTo": "2021-01-29T08:55:00",
+            "duration": 70,
+            "dateAirline": "LH",
+            "OA": "LH",
+            "flightNumber": "174"
+         },
+         "102": {
+            "from": "CDG",
+            "to": "HAV",
+            "dateFrom": "2021-01-16T13:25:00",
+            "dateTo": "2021-01-16T17:50:00",
+            "duration": 625,
+            "dateAirline": "AF",
+            "OA": "AF",
+            "flightNumber": "820"
+         },
+         "103": {
+            "from": "BER",
+            "to": "DUS",
+            "dateFrom": "2021-01-14T06:30:00",
+            "dateTo": "2021-01-14T07:45:00",
+            "duration": 75,
+            "dateAirline": "EW",
+            "OA": "EW",
+            "flightNumber": "8040"
+         },
+         "104": {
+            "from": "AMS",
+            "to": "CDG",
+            "dateFrom": "2021-01-15T16:35:00",
+            "dateTo": "2021-01-15T17:50:00",
+            "duration": 75,
+            "dateAirline": "KL",
+            "OA": "KL",
+            "flightNumber": "1243"
+         },
+         "105": {
+            "from": "MAD",
+            "to": "BER",
+            "dateFrom": "2021-01-29T15:55:00",
+            "dateTo": "2021-01-29T19:00:00",
+            "duration": 185,
+            "dateAirline": "IB",
+            "OA": "I2",
+            "flightNumber": "3672"
+         },
+         "106": {
+            "from": "MAD",
+            "to": "LHR",
+            "dateFrom": "2021-01-29T07:00:00",
+            "dateTo": "2021-01-29T08:25:00",
+            "duration": 145,
+            "dateAirline": "BA",
+            "OA": "IB",
+            "flightNumber": "7052"
+         },
+         "107": {
+            "from": "AMS",
+            "to": "CDG",
+            "dateFrom": "2021-01-14T10:20:00",
+            "dateTo": "2021-01-14T11:45:00",
+            "duration": 85,
+            "dateAirline": "KL",
+            "OA": "AF",
+            "flightNumber": "2007"
+         },
+         "108": {
+            "from": "LHR",
+            "to": "MAD",
+            "dateFrom": "2021-01-15T06:30:00",
+            "dateTo": "2021-01-15T09:55:00",
+            "duration": 145,
+            "dateAirline": "IB",
+            "OA": "BA",
+            "flightNumber": "7458"
+         },
+         "109": {
+            "from": "HAV",
+            "to": "ORY",
+            "dateFrom": "2021-01-28T17:05:00",
+            "dateTo": "2021-01-29T08:05:00",
+            "duration": 540,
+            "dateAirline": "TX",
+            "OA": "TX",
+            "flightNumber": "627"
+         },
+         "110": {
+            "from": "BER",
+            "to": "FRA",
+            "dateFrom": "2021-01-14T10:45:00",
+            "dateTo": "2021-01-14T11:55:00",
+            "duration": 70,
+            "dateAirline": "LH",
+            "OA": "LH",
+            "flightNumber": "183"
+         },
+         "111": {
+            "from": "BER",
+            "to": "LHR",
+            "dateFrom": "2021-01-14T19:45:00",
+            "dateTo": "2021-01-14T20:40:00",
+            "duration": 115,
+            "dateAirline": "BA",
+            "OA": "BA",
+            "flightNumber": "987"
+         },
+         "112": {
+            "from": "PUJ",
+            "to": "PTY",
+            "dateFrom": "2021-01-14T18:30:00",
+            "dateTo": "2021-01-14T20:07:00",
+            "duration": 157,
+            "dateAirline": "DE",
+            "OA": "CM",
+            "flightNumber": "242"
+         },
+         "113": {
+            "from": "MEX",
+            "to": "AMS",
+            "dateFrom": "2021-01-28T23:00:00",
+            "dateTo": "2021-01-29T16:40:00",
+            "duration": 640,
+            "dateAirline": "AM",
+            "OA": "AM",
+            "flightNumber": "25"
+         },
+         "114": {
+            "from": "FRA",
+            "to": "YYZ",
+            "dateFrom": "2021-01-14T13:25:00",
+            "dateTo": "2021-01-14T16:05:00",
+            "duration": 520,
+            "dateAirline": "LH",
+            "OA": "LH",
+            "flightNumber": "470"
+         },
+         "115": {
+            "from": "BER",
+            "to": "FRA",
+            "dateFrom": "2021-01-14T06:30:00",
+            "dateTo": "2021-01-14T07:40:00",
+            "duration": 70,
+            "dateAirline": "DE",
+            "OA": "LH",
+            "flightNumber": "173"
+         },
+         "116": {
+            "from": "AMS",
+            "to": "BER",
+            "dateFrom": "2021-01-30T09:45:00",
+            "dateTo": "2021-01-30T11:05:00",
+            "duration": 80,
+            "dateAirline": "KL",
+            "OA": "KL",
+            "flightNumber": "1823"
+         },
+         "117": {
+            "from": "AMS",
+            "to": "CDG",
+            "dateFrom": "2021-01-15T19:10:00",
+            "dateTo": "2021-01-15T20:30:00",
+            "duration": 80,
+            "dateAirline": "AF",
+            "OA": "AF",
+            "flightNumber": "1141"
+         },
+         "118": {
+            "from": "CDG",
+            "to": "AMS",
+            "dateFrom": "2021-01-30T07:10:00",
+            "dateTo": "2021-01-30T08:35:00",
+            "duration": 85,
+            "dateAirline": "KL",
+            "OA": "AF",
+            "flightNumber": "2002"
+         },
+         "119": {
+            "from": "FRA",
+            "to": "BER",
+            "dateFrom": "2021-01-29T12:45:00",
+            "dateTo": "2021-01-29T13:55:00",
+            "duration": 70,
+            "dateAirline": "LH",
+            "OA": "LH",
+            "flightNumber": "184"
+         },
+         "12": {
+            "from": "BER",
+            "to": "CDG",
+            "dateFrom": "2021-01-14T06:25:00",
+            "dateTo": "2021-01-14T08:15:00",
+            "duration": 110,
+            "dateAirline": "AF",
+            "OA": "AF",
+            "flightNumber": "1135",
+            "aircraftType": "321",
+            "terminalFrom": "1",
+            "terminalTo": "2F"
+         },
+         "120": {
+            "from": "ZRH",
+            "to": "YYZ",
+            "dateFrom": "2021-01-14T09:25:00",
+            "dateTo": "2021-01-14T12:15:00",
+            "duration": 530,
+            "dateAirline": "LX",
+            "OA": "AC",
+            "flightNumber": "4640"
+         },
+         "121": {
+            "from": "PUJ",
+            "to": "FRA",
+            "dateFrom": "2021-01-28T16:30:00",
+            "dateTo": "2021-01-29T06:55:00",
+            "duration": 565,
+            "dateAirline": "DE",
+            "OA": "DE",
+            "flightNumber": "2227"
+         },
+         "122": {
+            "from": "CDG",
+            "to": "AMS",
+            "dateFrom": "2021-01-29T14:30:00",
+            "dateTo": "2021-01-29T15:50:00",
+            "duration": 80,
+            "dateAirline": "AF",
+            "OA": "KL",
+            "flightNumber": "8234"
+         },
+         "123": {
+            "from": "HAV",
+            "to": "CCS",
+            "dateFrom": "2021-01-28T08:35:00",
+            "dateTo": "2021-01-28T12:40:00",
+            "duration": 185,
+            "dateAirline": "TK",
+            "OA": "TK",
+            "flightNumber": "183"
+         },
+         "124": {
+            "from": "MAD",
+            "to": "LHR",
+            "dateFrom": "2021-01-29T08:15:00",
+            "dateTo": "2021-01-29T09:50:00",
+            "duration": 155,
+            "dateAirline": "IB",
+            "OA": "IB",
+            "flightNumber": "3162"
+         },
+         "125": {
+            "from": "DUS",
+            "to": "CDG",
+            "dateFrom": "2021-01-14T09:10:00",
+            "dateTo": "2021-01-14T10:25:00",
+            "duration": 75,
+            "dateAirline": "AF",
+            "OA": "A5",
+            "flightNumber": "1307"
+         },
+         "126": {
+            "from": "AMS",
+            "to": "BER",
+            "dateFrom": "2021-01-29T19:15:00",
+            "dateTo": "2021-01-29T20:30:00",
+            "duration": 75,
+            "dateAirline": "KL",
+            "OA": "WA",
+            "flightNumber": "1833"
+         },
+         "127": {
+            "from": "HAV",
+            "to": "PTY",
+            "dateFrom": "2021-01-28T05:20:00",
+            "dateTo": "2021-01-28T07:57:00",
+            "duration": 157,
+            "dateAirline": "DE",
+            "OA": "CM",
+            "flightNumber": "295"
+         },
+         "128": {
+            "from": "PTY",
+            "to": "PUJ",
+            "dateFrom": "2021-01-28T09:10:00",
+            "dateTo": "2021-01-28T12:54:00",
+            "duration": 164,
+            "dateAirline": "DE",
+            "OA": "CM",
+            "flightNumber": "150"
+         },
+         "129": {
+            "from": "BER",
+            "to": "FRA",
+            "dateFrom": "2021-01-14T09:45:00",
+            "dateTo": "2021-01-14T10:55:00",
+            "duration": 70,
+            "dateAirline": "LH",
+            "OA": "LH",
+            "flightNumber": "181"
+         },
+         "130": {
+            "from": "CUN",
+            "to": "FRA",
+            "dateFrom": "2021-01-28T18:35:00",
+            "dateTo": "2021-01-29T10:35:00",
+            "duration": 600,
+            "dateAirline": "LH",
+            "OA": "LH",
+            "flightNumber": "515"
+         },
+         "131": {
+            "from": "TXL",
+            "to": "MUC",
+            "dateFrom": "2021-01-14T16:00:00",
+            "dateTo": "2021-01-14T17:10:00",
+            "duration": 70,
+            "dateAirline": "TP",
+            "OA": "LH",
+            "flightNumber": "7721"
+         },
+         "132": {
+            "from": "IST",
+            "to": "BER",
+            "dateFrom": "2021-01-29T12:30:00",
+            "dateTo": "2021-01-29T13:35:00",
+            "duration": 185,
+            "dateAirline": "TK",
+            "OA": "TK",
+            "flightNumber": "1725"
+         },
+         "133": {
+            "from": "BER",
+            "to": "AMS",
+            "dateFrom": "2021-01-14T21:05:00",
+            "dateTo": "2021-01-14T22:45:00",
+            "duration": 100,
+            "dateAirline": "KL",
+            "OA": "WA",
+            "flightNumber": "1834"
+         },
+         "134": {
+            "from": "FRA",
+            "to": "PUJ",
+            "dateFrom": "2021-01-14T09:30:00",
+            "dateTo": "2021-01-14T14:50:00",
+            "duration": 620,
+            "dateAirline": "DE",
+            "OA": "DE",
+            "flightNumber": "2226"
+         },
+         "14": {
+            "from": "FRA",
+            "to": "YYZ",
+            "dateFrom": "2021-01-14T09:45:00",
+            "dateTo": "2021-01-14T12:20:00",
+            "duration": 515,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "873",
+            "aircraftType": "77W",
+            "terminalFrom": "1",
+            "terminalTo": "1"
+         },
+         "15": {
+            "from": "BER",
+            "to": "ZRH",
+            "dateFrom": "2021-01-14T10:50:00",
+            "dateTo": "2021-01-14T12:15:00",
+            "duration": 85,
+            "dateAirline": "LX",
+            "OA": "LX",
+            "flightNumber": "977",
+            "aircraftType": "223",
+            "terminalFrom": "1"
+         },
+         "17": {
+            "from": "BER",
+            "to": "CDG",
+            "dateFrom": "2021-01-14T10:05:00",
+            "dateTo": "2021-01-14T11:55:00",
+            "duration": 110,
+            "dateAirline": "AF",
+            "OA": "AF",
+            "flightNumber": "1435",
+            "aircraftType": "319",
+            "terminalFrom": "1",
+            "terminalTo": "2F"
+         },
+         "20": {
+            "from": "BER",
+            "to": "FRA",
+            "dateFrom": "2021-01-14T10:45:00",
+            "dateTo": "2021-01-14T11:55:00",
+            "duration": 70,
+            "dateAirline": "AC",
+            "OA": "LH",
+            "flightNumber": "9118",
+            "aircraftType": "32Q",
+            "terminalFrom": "1",
+            "terminalTo": "1"
+         },
+         "21": {
+            "from": "HAV",
+            "to": "MAD",
+            "dateFrom": "2021-01-28T21:45:00",
+            "dateTo": "2021-01-29T12:25:00",
+            "duration": 520,
+            "dateAirline": "UX",
+            "OA": "UX",
+            "flightNumber": "52",
+            "aircraftType": "788",
+            "terminalFrom": "3",
+            "terminalTo": "1"
+         },
+         "22": {
+            "from": "CDG",
+            "to": "HAV",
+            "dateFrom": "2021-01-14T13:25:00",
+            "dateTo": "2021-01-14T17:50:00",
+            "duration": 625,
+            "dateAirline": "KL",
+            "OA": "AF",
+            "flightNumber": "2146",
+            "aircraftType": "77W",
+            "terminalFrom": "2E",
+            "terminalTo": "3"
+         },
+         "24": {
+            "from": "ZRH",
+            "to": "HAV",
+            "dateFrom": "2021-01-14T13:25:00",
+            "dateTo": "2021-01-14T18:45:00",
+            "duration": 680,
+            "dateAirline": "LX",
+            "OA": "WK",
+            "flightNumber": "8032",
+            "aircraftType": "333",
+            "terminalTo": "2"
+         },
+         "25": {
+            "from": "ZRH",
+            "to": "BER",
+            "dateFrom": "2021-01-29T07:15:00",
+            "dateTo": "2021-01-29T08:45:00",
+            "duration": 90,
+            "dateAirline": "AC",
+            "OA": "LX",
+            "flightNumber": "6802",
+            "aircraftType": "223",
+            "terminalTo": "1"
+         },
+         "26": {
+            "from": "HAV",
+            "to": "CDG",
+            "dateFrom": "2021-01-28T20:10:00",
+            "dateTo": "2021-01-29T11:05:00",
+            "duration": 535,
+            "dateAirline": "AF",
+            "OA": "AF",
+            "flightNumber": "825",
+            "aircraftType": "77W",
+            "terminalFrom": "3",
+            "terminalTo": "2E"
+         },
+         "27": {
+            "from": "CDG",
+            "to": "BER",
+            "dateFrom": "2021-01-29T20:40:00",
+            "dateTo": "2021-01-29T22:25:00",
+            "duration": 105,
+            "dateAirline": "AM",
+            "OA": "AF",
+            "flightNumber": "6066",
+            "aircraftType": "320",
+            "terminalFrom": "2F",
+            "terminalTo": "1"
+         },
+         "28": {
+            "from": "FRA",
+            "to": "CDG",
+            "dateFrom": "2021-01-14T09:40:00",
+            "dateTo": "2021-01-14T11:10:00",
+            "duration": 90,
+            "dateAirline": "AF",
+            "OA": "A5",
+            "flightNumber": "1519",
+            "aircraftType": "E90",
+            "terminalFrom": "2",
+            "terminalTo": "2G"
+         },
+         "29": {
+            "from": "FRA",
+            "to": "BER",
+            "dateFrom": "2021-01-29T07:45:00",
+            "dateTo": "2021-01-29T08:55:00",
+            "duration": 70,
+            "dateAirline": "AC",
+            "OA": "LH",
+            "flightNumber": "9117",
+            "aircraftType": "32Q",
+            "terminalFrom": "1",
+            "terminalTo": "1"
+         },
+         "33": {
+            "from": "BER",
+            "to": "AMS",
+            "dateFrom": "2021-01-14T06:00:00",
+            "dateTo": "2021-01-14T07:25:00",
+            "duration": 85,
+            "dateAirline": "UX",
+            "OA": "KL",
+            "flightNumber": "3758",
+            "aircraftType": "737"
+         },
+         "34": {
+            "from": "MUC",
+            "to": "ZRH",
+            "dateFrom": "2021-01-14T09:20:00",
+            "dateTo": "2021-01-14T10:20:00",
+            "duration": 60,
+            "dateAirline": "LH",
+            "OA": "LX",
+            "flightNumber": "5782",
+            "aircraftType": "E90",
+            "terminalFrom": "2"
+         },
+         "36": {
+            "from": "HAV",
+            "to": "CDG",
+            "dateFrom": "2021-01-28T20:10:00",
+            "dateTo": "2021-01-29T11:05:00",
+            "duration": 535,
+            "dateAirline": "KL",
+            "OA": "AF",
+            "flightNumber": "2178",
+            "aircraftType": "77W",
+            "terminalFrom": "3",
+            "terminalTo": "2E"
+         },
+         "37": {
+            "from": "BER",
+            "to": "ZRH",
+            "dateFrom": "2021-01-14T10:50:00",
+            "dateTo": "2021-01-14T12:15:00",
+            "duration": 85,
+            "dateAirline": "LH",
+            "OA": "LX",
+            "flightNumber": "5852",
+            "aircraftType": "223",
+            "terminalFrom": "1"
+         },
+         "38": {
+            "from": "ZRH",
+            "to": "VIE",
+            "dateFrom": "2021-01-29T12:40:00",
+            "dateTo": "2021-01-29T14:00:00",
+            "duration": 80,
+            "dateAirline": "LX",
+            "OA": "LX",
+            "flightNumber": "1578",
+            "aircraftType": "321"
+         },
+         "4": {
+            "from": "CDG",
+            "to": "BER",
+            "dateFrom": "2021-01-29T12:35:00",
+            "dateTo": "2021-01-29T14:20:00",
+            "duration": 105,
+            "dateAirline": "AF",
+            "OA": "AF",
+            "flightNumber": "1234",
+            "aircraftType": "318",
+            "terminalFrom": "2F",
+            "terminalTo": "1"
+         },
+         "40": {
+            "from": "CDG",
+            "to": "MEX",
+            "dateFrom": "2021-01-14T22:45:00",
+            "dateTo": "2021-01-15T04:15:00",
+            "duration": 750,
+            "dateAirline": "AM",
+            "OA": "AM",
+            "flightNumber": "4",
+            "aircraftType": "789",
+            "terminalFrom": "2E",
+            "terminalTo": "2"
+         },
+         "41": {
+            "from": "FRA",
+            "to": "YYZ",
+            "dateFrom": "2021-01-14T13:25:00",
+            "dateTo": "2021-01-14T16:05:00",
+            "duration": 520,
+            "dateAirline": "AC",
+            "OA": "LH",
+            "flightNumber": "9105",
+            "aircraftType": "333",
+            "terminalFrom": "1",
+            "terminalTo": "1"
+         },
+         "44": {
+            "from": "AMS",
+            "to": "MAD",
+            "dateFrom": "2021-01-14T11:05:00",
+            "dateTo": "2021-01-14T13:40:00",
+            "duration": 155,
+            "dateAirline": "UX",
+            "OA": "UX",
+            "flightNumber": "1098",
+            "aircraftType": "788",
+            "terminalTo": "2"
+         },
+         "45": {
+            "from": "AMS",
+            "to": "BER",
+            "dateFrom": "2021-01-29T16:25:00",
+            "dateTo": "2021-01-29T17:40:00",
+            "duration": 75,
+            "dateAirline": "KL",
+            "OA": "KL",
+            "flightNumber": "1831",
+            "aircraftType": "73H"
+         },
+         "47": {
+            "from": "CDG",
+            "to": "HAV",
+            "dateFrom": "2021-01-14T13:25:00",
+            "dateTo": "2021-01-14T17:50:00",
+            "duration": 625,
+            "dateAirline": "AF",
+            "OA": "AF",
+            "flightNumber": "820",
+            "aircraftType": "77W",
+            "terminalFrom": "2E",
+            "terminalTo": "3"
+         },
+         "48": {
+            "from": "BER",
+            "to": "AMS",
+            "dateFrom": "2021-01-14T06:00:00",
+            "dateTo": "2021-01-14T07:25:00",
+            "duration": 85,
+            "dateAirline": "KL",
+            "OA": "KL",
+            "flightNumber": "1818",
+            "aircraftType": "73H"
+         },
+         "49": {
+            "from": "BER",
+            "to": "MUC",
+            "dateFrom": "2021-01-14T07:25:00",
+            "dateTo": "2021-01-14T08:35:00",
+            "duration": 70,
+            "dateAirline": "LH",
+            "OA": "LH",
+            "flightNumber": "1959",
+            "aircraftType": "32A",
+            "terminalFrom": "1",
+            "terminalTo": "2"
+         },
+         "5": {
+            "from": "YYZ",
+            "to": "FRA",
+            "dateFrom": "2021-01-28T16:55:00",
+            "dateTo": "2021-01-29T06:30:00",
+            "duration": 455,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "872",
+            "aircraftType": "77W",
+            "terminalFrom": "1",
+            "terminalTo": "1"
+         },
+         "50": {
+            "from": "HAV",
+            "to": "ZRH",
+            "dateFrom": "2021-01-28T20:25:00",
+            "dateTo": "2021-01-29T11:55:00",
+            "duration": 570,
+            "dateAirline": "LX",
+            "OA": "WK",
+            "flightNumber": "8033",
+            "aircraftType": "333",
+            "terminalFrom": "2"
+         },
+         "51": {
+            "from": "BER",
+            "to": "CDG",
+            "dateFrom": "2021-01-14T17:55:00",
+            "dateTo": "2021-01-14T19:45:00",
+            "duration": 110,
+            "dateAirline": "AM",
+            "OA": "AF",
+            "flightNumber": "6067",
+            "aircraftType": "321",
+            "terminalFrom": "1",
+            "terminalTo": "2F"
+         },
+         "52": {
+            "from": "HAV",
+            "to": "MEX",
+            "dateFrom": "2021-01-28T15:05:00",
+            "dateTo": "2021-01-28T17:25:00",
+            "duration": 200,
+            "dateAirline": "AM",
+            "OA": "AM",
+            "flightNumber": "452",
+            "aircraftType": "737",
+            "terminalFrom": "3",
+            "terminalTo": "2"
+         },
+         "53": {
+            "from": "MEX",
+            "to": "CDG",
+            "dateFrom": "2021-01-28T22:50:00",
+            "dateTo": "2021-01-29T16:25:00",
+            "duration": 635,
+            "dateAirline": "AM",
+            "OA": "AM",
+            "flightNumber": "3",
+            "aircraftType": "789",
+            "terminalFrom": "2",
+            "terminalTo": "2E"
+         },
+         "54": {
+            "from": "VIE",
+            "to": "BER",
+            "dateFrom": "2021-01-29T15:00:00",
+            "dateTo": "2021-01-29T16:15:00",
+            "duration": 75,
+            "dateAirline": "LH",
+            "OA": "OS",
+            "flightNumber": "6379",
+            "aircraftType": "319",
+            "terminalTo": "1"
+         },
+         "55": {
+            "from": "MUC",
+            "to": "BER",
+            "dateFrom": "2021-01-29T11:00:00",
+            "dateTo": "2021-01-29T12:10:00",
+            "duration": 70,
+            "dateAirline": "AC",
+            "OA": "LH",
+            "flightNumber": "9049",
+            "aircraftType": "320",
+            "terminalFrom": "2",
+            "terminalTo": "1"
+         },
+         "56": {
+            "from": "BER",
+            "to": "ZRH",
+            "dateFrom": "2021-01-14T09:30:00",
+            "dateTo": "2021-01-14T11:00:00",
+            "duration": 90,
+            "dateAirline": "LX",
+            "OA": "LX",
+            "flightNumber": "975",
+            "aircraftType": "223",
+            "terminalFrom": "1"
+         },
+         "58": {
+            "from": "YYZ",
+            "to": "ZRH",
+            "dateFrom": "2021-01-28T16:50:00",
+            "dateTo": "2021-01-29T06:25:00",
+            "duration": 455,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "878",
+            "aircraftType": "789",
+            "terminalFrom": "1"
+         },
+         "59": {
+            "from": "CDG",
+            "to": "AMS",
+            "dateFrom": "2021-01-29T12:40:00",
+            "dateTo": "2021-01-29T14:00:00",
+            "duration": 80,
+            "dateAirline": "KL",
+            "OA": "AF",
+            "flightNumber": "2012",
+            "aircraftType": "319",
+            "terminalFrom": "2F"
+         },
+         "61": {
+            "from": "YYZ",
+            "to": "HAV",
+            "dateFrom": "2021-01-15T20:00:00",
+            "dateTo": "2021-01-15T23:35:00",
+            "duration": 215,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "1876",
+            "aircraftType": "319",
+            "terminalFrom": "1",
+            "terminalTo": "3"
+         },
+         "62": {
+            "from": "BER",
+            "to": "FRA",
+            "dateFrom": "2021-01-14T06:30:00",
+            "dateTo": "2021-01-14T07:40:00",
+            "duration": 70,
+            "dateAirline": "AC",
+            "OA": "LH",
+            "flightNumber": "9116",
+            "aircraftType": "32Q",
+            "terminalFrom": "1",
+            "terminalTo": "1"
+         },
+         "63": {
+            "from": "YYZ",
+            "to": "HAV",
+            "dateFrom": "2021-01-14T20:00:00",
+            "dateTo": "2021-01-14T23:35:00",
+            "duration": 215,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "1876",
+            "aircraftType": "319",
+            "terminalFrom": "1",
+            "terminalTo": "3"
+         },
+         "65": {
+            "from": "ZRH",
+            "to": "BER",
+            "dateFrom": "2021-01-29T12:45:00",
+            "dateTo": "2021-01-29T14:10:00",
+            "duration": 85,
+            "dateAirline": "LX",
+            "OA": "LX",
+            "flightNumber": "966",
+            "aircraftType": "320",
+            "terminalTo": "1"
+         },
+         "7": {
+            "from": "BER",
+            "to": "ZRH",
+            "dateFrom": "2021-01-14T06:45:00",
+            "dateTo": "2021-01-14T08:10:00",
+            "duration": 85,
+            "dateAirline": "LX",
+            "OA": "LX",
+            "flightNumber": "963",
+            "aircraftType": "320",
+            "terminalFrom": "1"
+         },
+         "70": {
+            "from": "MAD",
+            "to": "AMS",
+            "dateFrom": "2021-01-29T15:00:00",
+            "dateTo": "2021-01-29T17:45:00",
+            "duration": 165,
+            "dateAirline": "UX",
+            "OA": "UX",
+            "flightNumber": "1093",
+            "aircraftType": "788",
+            "terminalFrom": "2"
+         },
+         "71": {
+            "from": "TXL",
+            "to": "FRA",
+            "dateFrom": "2021-01-14T07:15:00",
+            "dateTo": "2021-01-14T08:25:00",
+            "duration": 70,
+            "dateAirline": "TP",
+            "OA": "TP",
+            "flightNumber": "7701",
+            "aircraftType": "321",
+            "terminalTo": "1"
+         },
+         "72": {
+            "from": "HAV",
+            "to": "YYZ",
+            "dateFrom": "2021-01-28T07:00:00",
+            "dateTo": "2021-01-28T10:25:00",
+            "duration": 205,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "1877",
+            "aircraftType": "319",
+            "terminalFrom": "3",
+            "terminalTo": "1"
+         },
+         "73": {
+            "from": "MAD",
+            "to": "HAV",
+            "dateFrom": "2021-01-14T15:35:00",
+            "dateTo": "2021-01-14T19:45:00",
+            "duration": 610,
+            "dateAirline": "UX",
+            "OA": "UX",
+            "flightNumber": "51",
+            "aircraftType": "788",
+            "terminalFrom": "1",
+            "terminalTo": "3"
+         },
+         "74": {
+            "from": "AMS",
+            "to": "CDG",
+            "dateFrom": "2021-01-14T09:30:00",
+            "dateTo": "2021-01-14T10:55:00",
+            "duration": 85,
+            "dateAirline": "KL",
+            "OA": "AF",
+            "flightNumber": "2003",
+            "aircraftType": "321",
+            "terminalTo": "2F"
+         },
+         "76": {
+            "from": "AMS",
+            "to": "BER",
+            "dateFrom": "2021-01-29T20:40:00",
+            "dateTo": "2021-01-29T21:55:00",
+            "duration": 75,
+            "dateAirline": "UX",
+            "OA": "KL",
+            "flightNumber": "3775",
+            "aircraftType": "737"
+         },
+         "78": {
+            "from": "BER",
+            "to": "LHR",
+            "dateFrom": "2021-01-14T11:05:00",
+            "dateTo": "2021-01-14T12:10:00",
+            "duration": 125,
+            "dateAirline": "BA",
+            "OA": "BA",
+            "flightNumber": "991",
+            "aircraftType": "320",
+            "terminalFrom": "1",
+            "terminalTo": "5"
+         },
+         "79": {
+            "from": "VIE",
+            "to": "BER",
+            "dateFrom": "2021-01-29T15:00:00",
+            "dateTo": "2021-01-29T16:15:00",
+            "duration": 75,
+            "dateAirline": "OS",
+            "OA": "OS",
+            "flightNumber": "231",
+            "aircraftType": "319",
+            "terminalTo": "1"
+         },
+         "83": {
+            "from": "MEX",
+            "to": "HAV",
+            "dateFrom": "2021-01-15T10:20:00",
+            "dateTo": "2021-01-15T14:05:00",
+            "duration": 165,
+            "dateAirline": "AM",
+            "OA": "AM",
+            "flightNumber": "451",
+            "aircraftType": "737",
+            "terminalFrom": "2",
+            "terminalTo": "3"
+         },
+         "85": {
+            "from": "ZRH",
+            "to": "BER",
+            "dateFrom": "2021-01-29T12:45:00",
+            "dateTo": "2021-01-29T14:10:00",
+            "duration": 85,
+            "dateAirline": "LH",
+            "OA": "LX",
+            "flightNumber": "5839",
+            "aircraftType": "320",
+            "terminalTo": "1"
+         },
+         "87": {
+            "from": "PTY",
+            "to": "HAV",
+            "dateFrom": "2021-01-14T21:52:00",
+            "dateTo": "2021-01-15T00:27:00",
+            "duration": 155,
+            "dateAirline": "DE",
+            "OA": "CM",
+            "flightNumber": "230"
+         },
+         "88": {
+            "from": "LHR",
+            "to": "YYZ",
+            "dateFrom": "2021-01-14T15:00:00",
+            "dateTo": "2021-01-14T17:55:00",
+            "duration": 475,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "849"
+         },
+         "89": {
+            "from": "HAV",
+            "to": "CUN",
+            "dateFrom": "2021-01-28T10:30:00",
+            "dateTo": "2021-01-28T12:00:00",
+            "duration": 90,
+            "dateAirline": "4O",
+            "OA": "4O",
+            "flightNumber": "901"
+         },
+         "9": {
+            "from": "MUC",
+            "to": "YYZ",
+            "dateFrom": "2021-01-15T11:50:00",
+            "dateTo": "2021-01-15T14:45:00",
+            "duration": 535,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "847",
+            "aircraftType": "77W",
+            "terminalFrom": "2",
+            "terminalTo": "1"
+         },
+         "90": {
+            "from": "BRU",
+            "to": "YYZ",
+            "dateFrom": "2021-01-14T10:45:00",
+            "dateTo": "2021-01-14T12:45:00",
+            "duration": 480,
+            "dateAirline": "AC",
+            "OA": "AC",
+            "flightNumber": "887"
+         },
+         "91": {
+            "from": "ZRH",
+            "to": "VIE",
+            "dateFrom": "2021-01-29T12:40:00",
+            "dateTo": "2021-01-29T14:00:00",
+            "duration": 80,
+            "dateAirline": "OS",
+            "OA": "LX",
+            "flightNumber": "8804"
+         },
+         "92": {
+            "from": "LHR",
+            "to": "BER",
+            "dateFrom": "2021-01-29T11:25:00",
+            "dateTo": "2021-01-29T14:20:00",
+            "duration": 115,
+            "dateAirline": "BA",
+            "OA": "BA",
+            "flightNumber": "980"
+         },
+         "93": {
+            "from": "BER",
+            "to": "BRU",
+            "dateFrom": "2021-01-14T06:50:00",
+            "dateTo": "2021-01-14T08:15:00",
+            "duration": 85,
+            "dateAirline": "SN",
+            "OA": "SN",
+            "flightNumber": "2592"
+         },
+         "94": {
+            "from": "MAD",
+            "to": "BER",
+            "dateFrom": "2021-01-29T08:40:00",
+            "dateTo": "2021-01-29T11:45:00",
+            "duration": 185,
+            "dateAirline": "IB",
+            "OA": "I2",
+            "flightNumber": "3676"
+         },
+         "95": {
+            "from": "CDG",
+            "to": "HAV",
+            "dateFrom": "2021-01-16T13:25:00",
+            "dateTo": "2021-01-16T17:50:00",
+            "duration": 625,
+            "dateAirline": "KL",
+            "OA": "AF",
+            "flightNumber": "2146"
+         },
+         "96": {
+            "from": "LHR",
+            "to": "BER",
+            "dateFrom": "2021-01-29T10:00:00",
+            "dateTo": "2021-01-29T12:55:00",
+            "duration": 115,
+            "dateAirline": "BA",
+            "OA": "BA",
+            "flightNumber": "982"
+         },
+         "97": {
+            "from": "MAD",
+            "to": "HAV",
+            "dateFrom": "2021-01-15T17:05:00",
+            "dateTo": "2021-01-15T21:35:00",
+            "duration": 630,
+            "dateAirline": "IB",
+            "OA": "IB",
+            "flightNumber": "6621"
+         },
+         "98": {
+            "from": "CCS",
+            "to": "IST",
+            "dateFrom": "2021-01-28T14:15:00",
+            "dateTo": "2021-01-29T08:35:00",
+            "duration": 680,
+            "dateAirline": "TK",
+            "OA": "TK",
+            "flightNumber": "183"
+         },
+         "99": {
+            "from": "FRA",
+            "to": "BER",
+            "dateFrom": "2021-01-29T08:45:00",
+            "dateTo": "2021-01-29T09:55:00",
+            "duration": 70,
+            "dateAirline": "DE",
+            "OA": "LH",
+            "flightNumber": "176"
+         }
+      },
+      "airlines": {
+         "2L": {
+            "name": "Helvetic Airways"
+         },
+         "4O": {
+            "name": "Interjet"
+         },
+         "A5": {
+            "name": "HOP!"
+         },
+         "AC": {
+            "name": "Air Canada"
+         },
+         "AF": {
+            "name": "Air France"
+         },
+         "AM": {
+            "name": "AeroMexico"
+         },
+         "BA": {
+            "name": "British Airways"
+         },
+         "CM": {
+            "name": "Copa Airlines"
+         },
+         "DE": {
+            "name": "Condor"
+         },
+         "EW": {
+            "name": "Eurowings"
+         },
+         "I2": {
+            "name": "Iberia Express"
+         },
+         "IB": {
+            "name": "Iberia"
+         },
+         "KL": {
+            "name": "KLM"
+         },
+         "LH": {
+            "name": "Lufthansa"
+         },
+         "LX": {
+            "name": "Swiss Air Lines"
+         },
+         "OS": {
+            "name": "Austrian Airlines"
+         },
+         "RV": {
+            "name": "Air Canada Rouge"
+         },
+         "SN": {
+            "name": "Brussels Airlines"
+         },
+         "TK": {
+            "name": "Turkish Airlines"
+         },
+         "TP": {
+            "name": "TAP Portugal"
+         },
+         "TX": {
+            "name": "Air Caraibes"
+         },
+         "UX": {
+            "name": "Air Europa"
+         },
+         "WA": {
+            "name": "KLM Cityhopper"
+         },
+         "WK": {
+            "name": "Edelweiss Air"
+         }
+      },
+      "cities": {
+         "AMS": {
+            "name": "Amsterdam"
+         },
+         "BER": {
+            "name": "Berlin"
+         },
+         "BRU": {
+            "name": "Brussels"
+         },
+         "CCS": {
+            "name": "Caracas"
+         },
+         "CUN": {
+            "name": "Cancún"
+         },
+         "DUS": {
+            "name": "Düsseldorf"
+         },
+         "FRA": {
+            "name": "Frankfurt am Main"
+         },
+         "HAV": {
+            "name": "Havana"
+         },
+         "IST": {
+            "name": "Istanbul"
+         },
+         "LON": {
+            "name": "London"
+         },
+         "MAD": {
+            "name": "Madrid"
+         },
+         "MEX": {
+            "name": "Mexico City"
+         },
+         "MUC": {
+            "name": "Munich"
+         },
+         "PAR": {
+            "name": "Paris"
+         },
+         "PTY": {
+            "name": "Panamá"
+         },
+         "PUJ": {
+            "name": "Punta Cana"
+         },
+         "VIE": {
+            "name": "Vienna"
+         },
+         "YTO": {
+            "name": "Toronto"
+         },
+         "ZRH": {
+            "name": "Zürich"
+         }
+      },
+      "airports": {
+         "AMS": {
+            "name": "Amsterdam Airport Schiphol",
+            "cityCode": "AMS"
+         },
+         "BER": {
+            "name": "Berlin Brandenburg Airport",
+            "cityCode": "BER"
+         },
+         "BRU": {
+            "name": "Brussels Airport",
+            "cityCode": "BRU"
+         },
+         "CCS": {
+            "name": "Simón Bolívar International Airport",
+            "cityCode": "CCS"
+         },
+         "CDG": {
+            "name": "Paris Charles de Gaulle Airport",
+            "cityCode": "PAR"
+         },
+         "CUN": {
+            "name": "Cancún International Airport",
+            "cityCode": "CUN"
+         },
+         "DUS": {
+            "name": "Düsseldorf International Airport",
+            "cityCode": "DUS"
+         },
+         "FRA": {
+            "name": "Frankfurt Airport",
+            "cityCode": "FRA"
+         },
+         "HAV": {
+            "name": "José Martí International Airport",
+            "cityCode": "HAV"
+         },
+         "IST": {
+            "name": "Istanbul Airport",
+            "cityCode": "IST"
+         },
+         "LHR": {
+            "name": "London Heathrow Airport",
+            "cityCode": "LON"
+         },
+         "MAD": {
+            "name": "Adolfo Suárez Madrid–Barajas Airport",
+            "cityCode": "MAD"
+         },
+         "MEX": {
+            "name": "Benito Juárez International Airport",
+            "cityCode": "MEX"
+         },
+         "MUC": {
+            "name": "Munich International Airport",
+            "cityCode": "MUC"
+         },
+         "ORY": {
+            "name": "Paris Orly Airport",
+            "cityCode": "PAR"
+         },
+         "PTY": {
+            "name": "Tocumen International Airport",
+            "cityCode": "PTY"
+         },
+         "PUJ": {
+            "name": "Punta Cana International Airport",
+            "cityCode": "PUJ"
+         },
+         "TXL": {
+            "name": "Berlin Tegel Airport",
+            "cityCode": "BER"
+         },
+         "VIE": {
+            "name": "Vienna International Airport",
+            "cityCode": "VIE"
+         },
+         "YYZ": {
+            "name": "Toronto Pearson International Airport",
+            "cityCode": "YTO"
+         },
+         "ZRH": {
+            "name": "Zurich Airport",
+            "cityCode": "ZRH"
+         }
+      },
+      "meta": {
+         "rfrToken": "oHnk1g8maG2b8vsmyQH_Nax1VjtzsG6ytSFWb1Lbdn_Oq4OCIUzUF1bbA1S7TTFfoO28IRk1U6erUb2wxTofNQ"
+      }
+   },
+   "nextToken": "AlQjfpsExMNOaxihAzsLKTOxivVTJEbubMSvDhFgCz-1"
+}

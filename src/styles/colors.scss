@@ -1,0 +1,34 @@
+.c_black { color: black !important; }
+.c_25    { color: $black25 !important; }
+.c_50    { color: $black50 !important; }
+.c_75    { color: $black75 !important; }
+.c_100   { color: $gray100 !important; }
+.c_125   { color: $gray125 !important; }
+.c_135   { color: $gray135 !important; }
+.c_150   { color: $gray150 !important; }
+.c_175   { color: $gray175 !important; }
+.c_200   { color: $gray200 !important; }
+.c_225   { color: $gray225 !important; }
+.c_main  { color: $accent !important; }
+.c_red   { color: $redlight !important; }
+.c_white { color: $white !important; }
+
+.h--c_25:hover    { color: $black25 !important; }
+.h--c_white:hover { color: $white !important; }
+.h--c_main:hover { color: $accent !important; }
+
+.bg_grad-radial {
+   background:radial-gradient(ellipse at center, $gray175 0%, $white252 100%); /* w3c */
+}
+
+.gray_0 {
+   filter: grayscale(0%);
+}
+
+.gray_50 {
+   filter: grayscale(50%);
+}
+
+.gray_100 {
+   filter: grayscale(100%);
+}

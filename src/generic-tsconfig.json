@@ -1,0 +1,26 @@
+{
+   "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "allowUnusedLabels": false,
+      "baseUrl": ".",
+      "paths": {
+         "*": [
+            "*",
+            "./src/main/*"
+         ]
+      },
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "jsx": "react-jsx",
+      "locale": "en",
+      "moduleResolution": "node",
+      "outDir": "../dist",
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "rootDir": "../src",
+      "sourceMap": true,
+      "module": "ES6",
+      "target": "ES6"
+   }
+}

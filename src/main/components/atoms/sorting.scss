@@ -1,0 +1,42 @@
+@import '../../../styles/mixins.scss';
+
+.Sorting_isActive {
+   .Sorting-Icon {
+
+      &::before,
+      &::after {
+         opacity: 1;
+      }
+   }
+
+   .Sorting-Icon {
+      opacity: 1;
+      transform: rotate(0deg) scale(1);
+   }
+
+   .Sorting-Icon_asc {
+      transform: rotate(0deg) scale(1);
+   }
+
+   .Sorting-Icon_desc {
+      transform: rotate(-180deg) scale(1);
+   }
+}
+
+.Sorting-Icon {
+   width: 12px;
+   height: 12px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-image: url(../../../images/svg/sortOrder.svg);
+   opacity: 0;
+   transform: rotate(0deg) scale(0);
+   transform-origin: center;
+   transition: opacity .25s, transform .25s cubic-bezier($expoout);
+   align-self: center;
+}
+
+.Sorting-IconDefault {
+   background-image: url(../../../images/svg/sortSmart.svg);
+}

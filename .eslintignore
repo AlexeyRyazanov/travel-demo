@@ -1,0 +1,31 @@
+# don't ever lint node_modules
+node_modules
+
+# don't lint build output (make sure it's set to your correct build folder name)
+dist
+
+# don't lint webpack config
+config
+
+# don't lint nyc coverage output
+coverage
+
+# don't lint tmp folder
+tmp
+
+# don't lint service worker
+# src/service-worker.js
+
+jest.config.js
+
+postcss.config.js
+
+.eslintrc.js
+node_modules*
+dist
+*.svg
+*.ico
+.gitignore
+*.md
+*.log
+*.lock

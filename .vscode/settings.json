@@ -1,0 +1,41 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+   "files.exclude": {
+      "**/.vscode": true,
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.DS_Store": true,
+      "node_modules": true,
+   },
+   "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+   },
+   "typescript.updateImportsOnFileMove.enabled": "always",
+   "typescript.preferences.importModuleSpecifier": "auto",
+   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+   "typescript.tsdk": "node_modules\\typescript\\lib",
+   "editor.tabSize": 3,
+   "editor.autoIndent": "keep",
+   "editor.detectIndentation": false,
+   "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+   ],
+   "editor.formatOnSave": false,
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+   },
+   "eslint.alwaysShowStatus": true,
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [{
+         "scope": ["entity.name.type.class.ts", "entity.name.type.ts"],
+         "settings": {
+            "fontStyle": "underline"
+         }
+      }]
+   }
+}

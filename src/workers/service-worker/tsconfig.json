@@ -1,0 +1,14 @@
+{
+   "extends": "../../generic-tsconfig.json",
+   "include": [
+      "**/src/workers/*.{js,ts}"
+   ],
+   "exclude": [],
+   "compilerOptions": {
+      "lib": [
+         "ES6",
+         "webworker"
+      ],
+      "composite": true
+   }
+}

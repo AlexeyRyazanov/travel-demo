@@ -1,0 +1,254 @@
+// Fonts names should match with files' names
+$fonts:
+'Main-Light',
+'Main-Book',
+'Main-Regular',
+'Main-RegularItalic',
+'Main-SemiBold',
+'Main-Bold'
+;
+
+@each $font in $fonts {
+   @font-face {
+      font-family: $font;
+      src: url('../fonts/#{$font}.eot');
+      src: url('../fonts/#{$font}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/#{$font}.woff2') format('woff2'),
+         url('../fonts/#{$font}.woff') format('woff'),
+         url('../fonts/#{$font}.ttf') format('truetype');
+   }
+}
+
+@font-face {
+   font-family: 'Roboto Mono Bold';
+   src: url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+   margin: 0;
+   line-height: 1.3em;
+   // margin-bottom: $fi1 + em;
+   font-weight: normal;
+   font-family: 'Main-SemiBold', Tahoma, Arial, sans-serif;
+   // user-select: none;
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.33em; }
+h4 { font-size: 1.2em; }
+
+p {
+   margin-top: 0em;
+   margin-bottom: $fi1 + rem;
+   line-height: $fi1 + rem;
+   color: $black50;
+
+   &:first-child {
+      margin-top: 0px;
+   }
+
+   &:last-child {
+      margin-bottom: 0;
+   }
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:focus:hover {
+   cursor: pointer;
+   color: inherit;
+   transition: all .3s cubic-bezier($expoout);
+   text-decoration: none;
+}
+
+.h--a {
+   text-decoration: underline;
+   border-radius: 0.25rem;
+
+   &:hover {
+      background-color: $accent;
+      color: $white !important;
+   }
+}
+
+// ul {
+//    position: relative;
+//    margin: 0;
+//    list-style: none;
+//    padding: 0;
+// }
+
+// li {
+//    display: flex;
+//    flex-flow: row nowrap;
+
+//    /* &::before {
+//       content: "";
+//       width: 4px;
+//       height: 4px;
+//       border-radius: 4px;
+//       margin-right: 0.5rem;
+//       margin-top: 0.75rem;
+//       background-color: $gray200;
+//       flex-shrink: 0;
+//       flex-grow: 0;
+//    } */
+// }
+
+strong {
+   font-weight: normal;
+   font-family: 'Main-Bold', Tahoma, Arial, sans-serif;
+}
+
+.italic   { font-family: 'Main-RegularItalic', Tahoma, Arial, sans-serif; }
+.bold     { font-family: 'Main-Bold', Tahoma, Arial, sans-serif; }
+.semibold { font-family: 'Main-SemiBold', Tahoma, Arial, sans-serif; }
+.monobold { font-family: 'Roboto Mono Bold', monospace !important; }
+.mono     { font-family: 'Roboto Mono', monospace !important; }
+
+.fs_big {
+   font-size: 8vw;
+   line-height: 1em;
+}
+
+.fs_3 {
+   font-size: 3em;
+   line-height: 1em;
+}
+
+.ls_1px { letter-spacing: 0.05em; }
+.ls_035r { letter-spacing: 0.035rem; }
+
+.capitalize { text-transform: capitalize; }
+.uppercase { text-transform: uppercase; }
+
+.ta_r { text-align: right; }
+.ta_c { text-align: center; }
+.ta_l { text-align: left; }
+
+.fs_067  { font-size: 0.67em; line-height: $fi1 + em; }
+.fs_0875 { font-size: 0.875em; line-height: $fi1 + em; }
+.fs_095  { font-size: 0.95em; line-height: $fi1 + em; }
+.fs_115  { font-size: 1.15em; line-height: $fi1 + em; }
+.fs_11   { font-size: 1.1em; line-height: $fi1 + em; }
+.fs_12   { font-size: 1.2em; line-height: $fi1 + em; }
+.fs_13   { font-size: 1.3em; line-height: $fi1 + em; }
+.fs_14   { font-size: 1.4em; line-height: $fi1 + em; }
+.fs_15   { font-size: 1.5em; line-height: $fi1 + em; }
+.fs_16   { font-size: 1.6em; line-height: $fi1 + em; }
+.fs_2    { font-size: 2em; }
+.fs_25   { font-size: 2.5em; line-height: 1.2em; }
+.fs_3    { font-size: 3em;   line-height: 1.2em; }
+.fs_404  { font-size: 25vw; }
+
+@include -s- {
+   .-s-fs_1    { font-size: 1em !important; }
+   .-s-fs_12   { font-size: 1.2em !important; }
+   .-s-fs_0875 { font-size: 0.875em !important; }
+   .-s-fs_2    { font-size: 2em !important; }
+   .-s-fs_15   { font-size: 1.5em !important; }
+}
+
+@include -s- {
+   .fs_15 { font-size: 1.2em; }
+}
+
+.lh_1  { line-height: 1em; }
+.lh_12 { line-height: 1.2em; }
+.lh_13 { line-height: 1.3em; }
+.lh_14 { line-height: 1.4em; }
+.lh_15 { line-height: 1.5em; }
+.lh_16 { line-height: $fi1 + em; }
+.lh_19 { line-height: 1.9em; }
+.lh_21 { line-height: 2.1em; }
+
+.qstn,
+.info {
+   cursor: pointer;
+
+   &::before {
+      position: relative;
+      text-align: center;
+      z-index: 1;
+   }
+
+   &::after {
+      content: "";
+      // display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: $fi1 + em;
+      width: $fi1 + em;
+      height: $fi1 + em;
+      font-size: 1em;
+      line-height: 1.2em;
+      color: $gray100;
+      background-color: $gray225;
+      z-index: 0;
+   }
+}
+
+.dollar {
+   &::before {
+      content: "$";
+      background: none;
+      color: $accent;
+      margin-right: 0.5em;
+      margin-top: 0;
+      font-family: 'Main-SemiBold', Tahoma, Arial, sans-serif;
+   }
+}
+
+.qstn {
+   &::before {
+      content: "?";
+   }
+}
+
+.info {
+   &:before {
+      content: "i";
+   }
+}
+
+.ust { user-select: text }
+.usn { user-select: none; }
+
+.td_u { text-decoration: underline; }
+.td_line-through { text-decoration: line-through; }
+
+.capitalize { text-transform: capitalize; }
+
+.text-overflow-ellipsis {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+
+.li_nobullet {
+   &::before {
+      display: none;
+   }
+}
+
+.underline-dashed {
+   position: relative;
+
+   &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      // right: 0;
+      border-bottom: 1px dashed $gray150;
+   }
+}

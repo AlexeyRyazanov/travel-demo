@@ -1,0 +1,200 @@
+// =========================
+// POSITION
+// =========================
+
+$rel: relative !important;
+$abs: absolute !important;
+
+.relative  { position: relative !important; }
+.absolute  { position: absolute !important; }
+.fixed     { position: fixed !important; }
+.sticky    { position: sticky; position:-webkit-sticky; }
+
+.block    { display: block !important; }
+.inline    { display: inline !important; }
+.inline-block    { display: inline-block !important; }
+
+@include -m- {
+   .-m-relative { position: $rel; }
+   .-m-absolute { position: $abs; }
+}
+
+@include -s- {
+   .-s-relative { position: $rel; }
+   .-s-absolute { position: $abs; }
+}
+
+.t_-1r { top: -1rem; }
+.l_-1r { left: -1rem; }
+
+.t_0  { top: 0; }
+.r_0  { right: 0; }
+.b_0  { bottom: 0; }
+.l_0  { left: 0; }
+
+.t_2px   { top: 2px; }
+.t_4px   { top: 4px; }
+.t_50p   { top: 50%; }
+.t_100p  { top: 100%; }
+.t_100vh { top: 100vh; }
+.t_150vh { top: 150vh; }
+.b_100p  { bottom: 100%; }
+
+
+.t_2-5 { top: $fi2 + 0.5 + rem; }
+
+.t_05r{ top: 0.5rem; }
+.t_1  { top: $fi1 + rem; }
+.t_2  { top: $fi2 + rem; }
+.t_3  { top: $fi3 + rem; }
+.t_4  { top: $fi4 + rem; }
+
+.t_2_72 { top: 2.72rem; }
+.t_2_7  { top: 2.7rem; }
+.t_5    { top: 6.24rem; }
+
+.b_05r{ bottom: 0.5rem; }
+.r_4px{ right: 4px; }
+.r_1  { right: $fi1 + rem; }
+.r_2  { right: $fi2 + rem; }
+.r_3  { right: $fi3 + rem; }
+
+.b_4px{ bottom: 4px; }
+.b_1  { bottom: $fi1 + rem; }
+.b_2  { bottom: $fi2 + rem; }
+.b_3  { bottom: $fi3 + rem; }
+.b_3-2r { bottom: 3.2rem; }
+
+.l_4px{ left: 4px; }
+.l_1  { left: $fi1 + rem; }
+.l_2  { left: $fi2 + rem; }
+.l_3  { left: $fi3 + rem; }
+
+.abs_offset_2px { top: 2px; right: 2px; bottom: 2px; left: 2px; }
+.abs_offset_4px { top: 4px; right: 4px; bottom: 4px; left: 4px; }
+
+.t_-1px { top: -1px; }
+.l_-1px { left: -1px; }
+
+.fill_offset_-4px { top: -2px; right: -2px; bottom: -2px; left: -2px; }
+.fill_offset_4px  { top: 4px; right: 4px; bottom: 4px; left: 4px; }
+.fill_offset_05r  { top: 0.5rem; right: 0.5rem; bottom: 0.5rem; left: 0.5rem; }
+
+// =========================
+// OVERFLOW
+// =========================
+
+.o_h  { overflow: hidden; }
+.ox_h { overflow-x: hidden; }
+.oy_s { overflow-y: scroll; }
+.oy_a { overflow-y: auto; }
+
+// =========================
+// OPACITY
+// =========================
+
+.op_0   { opacity: 0; }
+.op_01  { opacity: .1; }
+.op_02  { opacity: .2; }
+.op_03  { opacity: .3; }
+.op_05  { opacity: .5; }
+.op_06  { opacity: .6; }
+.op_065 { opacity: .65; }
+.op_075 { opacity: .75; }
+.op_08  { opacity: .8; }
+.op_085 { opacity: .85; }
+.op_09  { opacity: .9; }
+.op_1   { opacity: 1; }
+
+.h--op_1:hover   { opacity: 1 !important; }
+.h--op_09:hover  { opacity: .9 !important; }
+
+// =========================
+// CURSORS
+// =========================
+
+.cur_p { cursor: pointer; }
+.cur_t { cursor: text; }
+
+.cur_grab {
+   cursor: pointer;
+   cursor: grab;
+   cursor: -webkit-grab;
+
+   &:active {
+      cursor: grabbing;
+      cursor: -webkit-grabbing;
+   }
+}
+
+// =========================
+// Z-INDEXES
+// =========================
+
+@for $i from -5 through 20 {
+   .z#{$i} { z-index: $i; }
+}
+
+@for $i from 98 through 110 {
+   .z#{$i} { z-index: $i; }
+}
+
+// =========================
+// BACKGROUND IMAGE
+// =========================
+
+.bg_center {
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+// .Banner--promo01 { background-image: url(../images/banners/promo_01.jpg); }
+
+.bgpos_cb { background-position: center bottom !important; }
+
+.bgpos_75p_100p { background-position: 75% 100% !important; }
+
+.objpos_t { object-position: 50% 0%; -o-object-position: 50% 0%; }
+.objpos_center { object-position: 50% 50%; -o-object-position: 50% 50%; }
+.objfit_cover   { object-fit: cover; }
+.objfit_contain { object-fit: contain; }
+
+@include -l- {
+   .-l-o_h  { overflow: hidden !important; }
+   .-l-oy_s { overflow-y: scroll !important; }
+ 
+   .-l-hidden { display: none !important; }
+}
+
+@include -m- {
+   .-m-hidden { display: none !important; }
+   .-m-block  { display: block !important; }
+}
+
+@include -s- {
+   .-s-hidden { display: none !important; }
+   .-s-block  { display: block !important; }
+}
+
+@include -xs- {
+   .-xs-hidden { display: none !important; }
+   .-xs-block  { display: block !important; }
+}
+
+.vis-hidden { visibility: hidden; }
+.flex   { display: flex; }
+.block  { display: block; }
+.hidden { display: none; }
+
+.no-events { pointer-events: none; }
+
+.bef_line_200 {
+   position: absolute;
+   top: 1/$fi4 + rem;
+   bottom: 1/$fi4 + rem;
+   left: 0;
+   width: 2px;
+   border-radius: 1px;
+   background-color: $gray200;
+}

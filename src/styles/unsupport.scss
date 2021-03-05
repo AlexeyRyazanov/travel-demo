@@ -1,0 +1,116 @@
+.Unsupport {
+   padding: $fi4 + rem $fi3 + rem;
+   margin-top: 0;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   justify-content: center;
+   // background-image: url(../images/svg/logo_unicornHorseW.svg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   display: flex;
+
+   @include -xl- {
+      padding: $fi4 + rem $fi2 + rem;
+   }
+
+   @include -m- {
+      padding: $fi4 + rem $fi1 + rem;
+   }
+
+   @include -s- {
+      padding: $fi4 + rem 1rem;
+   }
+}
+
+.Unsupport-Header {
+   width: 100%;
+   max-width: 1022px;
+   text-align: center;
+   line-height: 1.65rem;
+   margin-top: 0;
+}
+
+.Unsupport-BrowsersList {
+   display: flex;
+   flex-flow: row wrap;
+   margin-bottom: $fi2 + rem;
+   justify-content: center;
+}
+
+.Unsupport-BrowserWrap {
+   padding: $fi1/2 + rem;
+}
+
+.Unsupport-Browser {
+   padding: 1rem $fi1 + rem;
+   border-radius: 0.5rem;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   text-decoration: none;
+   box-shadow: $shadow2;
+   background-color: $gray248;
+   will-change: transform;
+   transform: translateY(0px);
+   transition: transform .3s, background-color .3s, box-shadow .3s cubic-bezier($expoout);
+
+   &:hover {
+      background-color: $white;
+      box-shadow: $shadow4;
+      transform: translateY(-2px);
+      transition: transform .3s, background-color .3s, box-shadow .3s cubic-bezier($expoout);
+
+      span {
+         color: $accent;
+      }
+   }
+
+   &:active {
+      box-shadow: $shadow2;
+      transform: translateY(0px);
+      transition: transform .15s, background-color .15s, box-shadow .15s cubic-bezier($expoout);
+   }
+
+   img {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 1/$fi1 + rem;
+   }
+
+   span {
+      font-size: 1.2em;
+      color: $black50;
+      transition: color .3s cubic-bezier($expoout);
+   }
+}
+
+.Unsupport-Block {
+   padding: $fi1 + rem;
+   box-shadow: $shadow3;
+   background-color: $white;
+   border-radius: 0.5rem;
+   margin-top: $fi2 + rem;
+
+   .ContactsBlock-Link {
+      float: none !important;
+      display: inline !important;
+      margin-right: 0 !important;
+   }
+}
+
+.Unsupport-Future {
+   display: flex;
+   flex-flow: row wrap;
+
+   h4 {
+      margin-top: 0;
+      margin-right: $fi1 + rem;
+
+      &:last-child {
+         margin-right: 0;
+      }
+   }
+}

@@ -1,0 +1,17 @@
+button, [role="button"] {
+   cursor: pointer;
+   outline: none;
+   border: 0;
+   padding: 0;
+   color: inherit;
+   letter-spacing: inherit;
+   word-spacing: inherit;
+   font: inherit;
+   background-color: transparent;
+   background: none;
+
+   &:focus-visible {
+      // background-color: transparent;
+      outline: auto;
+   }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- For SEO crawers or bots to understand that it is not a simple HTML-page and it is AJAX-page -->
+   <meta name="fragment" content="!">
+
+   <meta charset="UTF-8">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+   <meta name="revisit-after" content="1 day">
+   <meta name="contact" content="idodesign@yandex.ru">
+   <meta name="copyright" content="Alexey Ryazanov D-Mind Portfolio">
+   <meta name="language" content="Russian">
+   <meta name="googlebot" content="index,follow,NOODP">
+   <meta name="robots" content="index,follow">
+   <meta name="author" content="Alexey Ryazanov D-Mind">
+
+   <meta property="og:title" content="Alexey Ryazanov D-Mind Portfolio">
+   <meta property="og:type" content="website">
+   <meta property="og:site_name" content="www.d-mind.ru">
+   <meta property="og:locale" content="ru_RU">
+   <meta property="og:image" content="/assets/favicon/android-icon-192x192.png" />
+   <meta property="og:description" content="Creative developer with wide skill set" />
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+
+   <!-- Apple icon -->
+   <link rel="apple-touch-icon" sizes="192x192" href="/assets/favicon/apple-icon.png">
+   <link rel="apple-touch-icon" sizes="192x192" href="/assets/favicon/apple-icon-precomposed.png">
+   <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+
+   <!-- Android icon -->
+   <link rel="icon" type="image/png" sizes="36x36" href="/assets/favicon/android-icon-36x36.png">
+   <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon/android-icon-48x48.png">
+   <link rel="icon" type="image/png" sizes="72x72" href="/assets/favicon/android-icon-72x72.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/android-icon-96x96.png">
+   <link rel="icon" type="image/png" sizes="144x144" href="/assets/favicon/android-icon-144x144.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-icon-192x192.png">
+   <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
+
+   <link rel="manifest" href="/manifest.json">
+   <meta name="theme-color" content="#f5f5f5">
+   <!-- <meta name="mobile-web-app-capable" content="yes"> -->
+   <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+   <meta name="msapplication-starturl" content="/">
+   <meta name="msapplication-TileColor" content="#f5f5f5">
+   <!-- <meta name="msapplication-TileImage" content="/Content/favicon/ms-icon-144x144.png"> -->
+
+   <script>
+      function getBrowser() {
+         // Return cached result if avalible, else get result then cache it.
+         /*
+         if (browser.prototype._cachedResult)
+            return browser.prototype._cachedResult;
+         */
+
+         var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >=
+            0; // Opera 8.0+
+         var isFirefox = typeof InstallTrigger !== 'undefined'; // Firefox 1.0+
+         var isIE = /*@cc_on!@*/ false || !!document.documentMode; // Internet Explorer 6-11
+         var isEdge = !isIE && !!window.StyleMedia; // Edge 20+
+         var isChrome = !!window.chrome && !!window.chrome.webstore; // Chrome 1+
+         var isBlink = (isChrome || isOpera) && !!window.CSS; // Blink engine detection
+
+         // Safari 3.0+ "[object HTMLElementConstructor]" 
+         var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) {
+            return p.toString() === "[object SafariRemoteNotification]";
+         })(!window['safari'] || safari.pushNotification);
+
+         // return browser.prototype._cachedResult =
+         var result =
+            isOpera ? 'Opera' :
+            isFirefox ? 'Firefox' :
+            isSafari ? 'Safari' :
+            isChrome ? 'Chrome' :
+            isIE ? 'IE' :
+            isEdge ? 'Edge' :
+            isBlink ? 'Blink' :
+            "Don't know";
+         return result;
+      };
+
+      function checkBrowser() {
+         var ua = window.navigator.userAgent;
+         // console.log(ua);
+         var msie = ua.indexOf("MSIE ");
+         var browser = getBrowser();
+
+         if (msie !== -1 || browser === 'IE') {
+            window.location = '/unsupport.html';
+         }
+
+         return false;
+      }
+
+      checkBrowser();
+   </script>
+   <!-- Prod scripts head -->
+</head>
+
+<body>
+   <!-- Prod scripts body -->
+   <noscript>
+      <div class="relative p_3">
+         <h1 class="semibold fs_3">Hi! My name is <span class="c_main">Alexey Ryazanov</span></h1>
+         <h2 class="mt_1 fs_3"><span class="c_main">Creative developer</span> with wide skill set</h2>
+         <div class="bg_white mt_3 p_2">
+            <div class="fs_15 semibold">
+               <span class="c_main">Art director</span>, creative developer, user interface
+               designer, <span class="c_main">interactive</span> animation creator, graphic designer, photographer,
+               &amp; <span class="c_main">perfectionist</span> with a passion for digital products.
+            </div>
+         </div>
+      </div>
+   </noscript>
+   <div id="root" class="clearfix"></div>
+</body>
+
+</html>

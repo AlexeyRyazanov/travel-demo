@@ -1,0 +1,127 @@
+// $base: 0.1em;
+$base: 2px;
+
+@for $i from 1 through 6 {
+   $var1: to-fixed(pow($fi1, $i - 1), 1);
+   $var2: to-fixed(pow($fi1, $i), 1);
+   $var3: 0.06 * (1 + $i/to-fixed(pow($fi1, 3), 1)); // blurred shadow opacity
+   $var4: 0.03 * (1 + $i/to-fixed(pow($fi1, 5), 1)); // sharp shadow opacity
+
+   .boxsh_#{$i} {
+      box-shadow: 0px 1px * $var1 $base * $var2 0px rgba(0, 0, 0, $var3), 0px 0px $base 0px rgba(0, 0, 0, $var4);
+   }
+
+   .h--boxsh_#{$i} {
+      position: relative;
+      // box-shadow: 0px 1px * $var1 $base * $var2 0px rgba(0, 0, 0, $var3), 0px 0px $base 0px rgba(0, 0, 0, $var4) !important;
+
+      &::after {
+         content: "";
+         position: absolute;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         // background-color: red;
+         z-index: 0;
+         opacity: 0;
+         border-radius: inherit;
+         box-shadow: 0px 1px * $var1 $base * $var2 0px rgba(0, 0, 0, $var3), 0px 0px $base 0px rgba(0, 0, 0, $var4) !important;
+         transition: opacity 0.3s cubic-bezier($expoout);
+      }
+
+      &:hover {
+         &::after {
+            opacity: 1;
+         }
+      }
+   }
+
+   .boxsh_#{$i}in {
+      box-shadow: inset 0px 1px * $var1 $base * $var2 0px rgba(0, 0, 0, $var3), 0px 0px $base 0px rgba(0, 0, 0, $var4);
+   }
+
+   .txtsh_#{$i} {
+      text-shadow: 0px 1px * $var1 $base * $var2 rgba(0, 0, 0, $var3), 0px 0px $base rgba(0, 0, 0, $var4);
+   }
+
+   .h--txtsh_#{$i}:hover {
+      text-shadow: 0px 1px * $var1 $base * $var2 rgba(0, 0, 0, $var3), 0px 0px $base rgba(0, 0, 0, $var4) !important;
+   }
+}
+
+.boxsh_1-ps {
+   position: relative;
+
+   &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      // background-color: red;
+      z-index: 0;
+      opacity: 0;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      transition: opacity 0.3s cubic-bezier($expoout);
+   }
+
+   &:hover {
+      &::after {
+         opacity: 1;
+      }
+   }
+}
+
+.boxsh_xs {
+   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.075), 0px 1px 1px 0px rgba(0, 0, 0, 0.075);
+}
+
+.h--boxsh_xs:hover {
+   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.075), 0px 1px 1px 0px rgba(0, 0, 0, 0.075);
+}
+
+.a--boxsh_xs:active {
+   box-shadow: 0px 1px * to-fixed(pow($fi1, 1 - 1), 1) $base * to-fixed(pow($fi1, 1), 1) 0px
+         rgba(0, 0, 0, 0.15 * (1 + 1 / to-fixed(pow($fi1, 5), 1))),
+      0px 0px $base 0px rgba(0, 0, 0, 0.025 * (1 + 1 / $fi5)) !important;
+}
+
+.boxsh_op0 {
+   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.boxsh_3_top {
+   box-shadow: 0px -1px * to-fixed(pow($fi1, 3 - 1), 1) $base * to-fixed(pow($fi1, 3), 1) 0px rgba(0, 0, 0, 0.1 *
+               (1 + 3 / to-fixed(pow($fi1, 5), 1))),
+      0px 0px $base 0px rgba(0, 0, 0, 0.025 * (1 + 3 / $fi5));
+}
+
+.boxsh_3_right {
+   box-shadow: 1px * to-fixed(pow($fi1, 3 - 1), 1) 0px $base * to-fixed(pow($fi1, 3), 1) 0px
+         rgba(0, 0, 0, 0.1 * (1 + 3 / to-fixed(pow($fi1, 5), 1))),
+      0px 0px $base 0px rgba(0, 0, 0, 0.025 * (1 + 3 / to-fixed(pow($fi1, 5), 1)));
+}
+
+$shadow4-top: 0px -3px 6px 0px rgba(0, 0, 0, 0.075), 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+
+.a--boxsh_2:active {
+   box-shadow: 0px 1px * to-fixed(pow($fi1, 1 - 1), 1) $base * to-fixed(pow($fi1, 1), 1) 0px
+         rgba(0, 0, 0, 0.15 * (1 + 1 / to-fixed(pow($fi1, 5), 1))),
+      0px 0px $base 0px rgba(0, 0, 0, 0.025 * (1 + 1 / $fi5)) !important;
+}
+
+.a--boxsh_0:active {
+   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.svgsh_xs {
+   -webkit-filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.06));
+   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.06));
+   /* Similar syntax to box-shadow */
+}
+
+.boxsh_1_hard {
+   box-shadow: $shadow1;
+}

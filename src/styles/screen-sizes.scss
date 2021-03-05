@@ -1,0 +1,129 @@
+@import "_include-media";
+
+/*
+References for @media queries breakpoints
+
+-- Material-UI --
+
+   xs, extra-small: 0px or larger
+   sm, small: 600px or larger
+   md, medium: 960px or larger
+   lg, large: 1280px or larger
+   xl, extra-large: 1920px or larger
+
+
+-- Google Chrome Devices --
+
+   Laptop HiDPI screen 1440 x 900
+   Laptop with touch   1280 x 950
+   Laptop MDPI screen  1280 x 800
+   iPad Pro            1024 x 1366
+   Nexus 10             800 x 1280
+   iPad, iPad Mini      768 x 1024
+   Nexus 7              600 x 960
+   Surface Duo          540 x 720
+   iPhone 6/7/8         375 x 667
+   iPhone 6/7/8 Plus    414 x 736
+   Moto G4, Galaxy S5   360 x 640
+   Pixel 2              411 x 731
+   Pixel 2 XL           411 x 823
+   iPhone X             375 x 812
+   iPhone 5/SE          320 x 568
+   Galaxy Fold          280 x 653
+
+*/
+
+// $breakpoints: (
+//    "ss400": 400px,
+//    "ss1440": 1440px,
+// );
+
+@mixin -xxxl- {
+   @include media("screen", ">=1600px") {
+      @content;
+   }
+}
+
+@mixin -xxl- {
+   @include media("screen", "<=1599px") {
+      @content;
+   }
+}
+
+@mixin -s1440- {
+   @include media("screen", "<=1440px") {
+      @content;
+   }
+}
+
+@mixin -xl- {
+   @include media("screen", "<=1279px") {
+      @content;
+   }
+}
+
+@mixin -l- {
+   @include media("screen", "<=1023px") {
+      @content;
+   }
+}
+
+@mixin -s900- {
+   @include media("screen", "<=900px") {
+      @content;
+   }
+}
+
+@mixin -s800- {
+   @include media("screen", "<=800px") {
+      @content;
+   }
+}
+
+@mixin -m- {
+   @include media("screen", "<=767px") {
+      @content;
+   }
+}
+
+@mixin -s- {
+   @include media("screen", "<=639px") {
+      @content;
+   }
+}
+
+@mixin -s550- {
+   @include media("screen", "<=550px") {
+      @content;
+   }
+}
+
+@mixin -s500- {
+   @include media("screen", "<=500px") {
+      @content;
+   }
+}
+
+@mixin -s450- {
+   @include media("screen", "<=449px") {
+      @content;
+   }
+}
+
+@mixin -s400- {
+   @include media("screen", "<=400px") {
+      @content;
+   }
+}
+
+@mixin -xs- {
+   @include media("screen", "<=339px") {
+      @content;
+   }
+}
+
+@mixin -xxs- {
+   @include media("screen", "<=299px") {
+      @content;
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "extends": "../generic-tsconfig.json",
+   "compilerOptions": {
+      "lib": [
+         "dom",
+         "ES6",
+      ],
+   },
+   "references": [{
+         "path": "../workers/dedicated-worker"
+      },
+      {
+         "path": "../workers/service-worker"
+      },
+   ]
+}

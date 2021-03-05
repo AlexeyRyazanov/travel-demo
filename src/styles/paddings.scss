@@ -1,0 +1,269 @@
+@import 'mixins';
+
+.p_0 { padding: 0 !important; }
+
+$sizes: -3, -2, -1, 1, 2, 3, 4;
+$sides: top, right, bottom, left;
+
+// Zero paddings around
+@each $side in $sides {
+   $char: str-slice($side, 0, 1);
+
+   .p#{$char}_0 { padding-#{$side}: 0 !important; }
+}
+
+// Zero paddings for x/y axes
+@each $axis in $axises {
+   @if $axis == x {
+      .p#{$axis}_0 {
+         padding-left: 0 !important;
+         padding-right: 0 !important;
+      }
+   }
+   @if $axis == y {
+      .p#{$axis}_0 {
+         padding-top: 0 !important;
+         padding-bottom: 0 !important;
+      }
+   }
+}
+
+// Main paddings
+@each $size in $sizes {
+   $val: to-fixed(pow($fi1, $size), 2) + rem;
+
+   .p_#{$size} { padding: $val; box-sizing: border-box; }
+
+   @each $axis in $axises {
+      @if $axis == x {
+         .p#{$axis}_#{$size} {
+            padding-left: $val; box-sizing: border-box;
+            padding-right: $val; box-sizing: border-box;
+         }
+      }
+      @if $axis == y {
+         .p#{$axis}_#{$size} {
+            padding-top: $val; box-sizing: border-box;
+            padding-bottom: $val; box-sizing: border-box;
+         }
+      }
+   }
+}
+
+@include -xl- {
+   @each $size in $sizes {
+      $val: to-fixed(pow($fi1, $size), 2) + rem;
+
+      @if $size <= 3 {
+         .-xl-p_#{$size} { padding: $val !important; }
+
+         @each $axis in $axises {
+            @if $axis == x {
+               .-xl-p#{$axis}_#{$size} { padding-left: $val !important; padding-right: $val !important; }
+            }
+            @if $axis == y {
+               .-xl-p#{$axis}_#{$size} { padding-top: $val !important;padding-bottom: $val !important; }
+            }
+         }
+      }
+
+      // @if $size == 2 or $size == 3 {
+      //    $val: to-fixed(pow($fi1, $size - 1), 2) + rem;
+
+      //    .p_#{$size} { padding: $val !important; }
+
+      //    @each $axis in $axises {
+      //       @if $axis == x {
+      //          .p#{$axis}_#{$size} { padding-left: $val !important; padding-right: $val !important; }
+      //       }
+      //       @if $axis == y {
+      //          .p#{$axis}_#{$size} { padding-top: $val !important; padding-bottom: $val !important; }
+      //       }
+      //    }
+      // }
+   }
+   
+   .-xl-p_1-2  { padding: to-fixed(pow($fi1, 1)/2, 2) + rem !important; }
+   .-xl-p_1-2r { padding: 0.5rem !important; }
+}
+
+@include -l- {
+   @each $size in $sizes {
+
+      @if $size <= 2 {
+         $val: to-fixed(pow($fi1, $size), 2) + rem;
+         .-l-p_#{$size} { padding: $val !important; }
+
+         @each $axis in $axises {
+            @if $axis == x {
+               .-l-p#{$axis}_#{$size} { padding-left: $val !important; padding-right: $val !important; }
+            }
+            @if $axis == y {
+               .-l-p#{$axis}_#{$size} { padding-top: $val !important; padding-bottom: $val !important; }
+            }
+         }
+      }
+
+      // @if $size == 3 {
+      //    $val: to-fixed(pow($fi1, $size - 2), 2) + rem;
+
+      //    .p_#{$size} { padding: $val !important; }
+
+      //    @each $axis in $axises {
+      //       @if $axis == x {
+      //          .p#{$axis}_#{$size} { padding-left: $val !important; padding-right: $val !important; }
+      //       }
+      //       @if $axis == y {
+      //          .p#{$axis}_#{$size} { padding-top: $val !important; padding-bottom: $val !important; }
+      //       }
+      //    }
+      // }
+   }
+
+   @each $axis in $axises {
+      @if $axis == x {
+         .-l-p#{$axis}_0 { padding-left: 0 !important; padding-right: 0 !important; }
+      }
+      @if $axis == y {
+         .-l-p#{$axis}_0 { padding-top: 0 !important; padding-bottom: 0 !important; }
+      }
+   }
+   
+   .-l-p_1-2    { padding: to-fixed(pow($fi1, 1)/2, 2) + rem !important; }
+   .-l-p_1-2r   { padding: 0.5rem !important; }
+   .-l-px_1-2r  { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+   .-l-py_1-2r  { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+   .-l-px_1r    { padding-left: 1rem !important; padding-right: 1rem !important; }
+   .-l-py_1r    { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@include -m- {
+   @each $size in $sizes {
+      $val: to-fixed(pow($fi1, $size), 2) + rem;
+
+      @if $size <= 2 {
+         .-m-p_#{$size} { padding: $val !important; }
+
+         @each $axis in $axises {
+            @if $axis == x {
+               .-m-p#{$axis}_#{$size} { padding-left: $val !important; padding-right: $val !important; }
+            }
+            @if $axis == y {
+               .-m-p#{$axis}_#{$size} { padding-top: $val !important; padding-bottom: $val !important; }
+            }
+         }
+      }
+   }
+
+   .-m-px_1-2r { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+   .-m-p_1r    { padding: 1rem !important; }
+   .-m-p_1-2r  { padding: 0.5rem !important; }
+   .-m-p_1-2   { padding: to-fixed(pow($fi1, 2)/2, 2) + rem !important; }
+   .-m-p_2-2   { padding: to-fixed(pow($fi1, 2)/2, 2) + rem !important; }
+}
+
+@include -s- {
+   @each $size in $sizes {
+      $val: to-fixed(pow($fi1, $size), 2) + rem;
+
+      @if $size <= 1 {
+         .-s-p_#{$size} { padding: $val !important; }
+
+         @each $axis in $axises {
+            @if $axis == x {
+               .-s-p#{$axis}_#{$size} { padding-left: $val !important; padding-right: $val !important; }
+            }
+            @if $axis == y {
+               .-s-p#{$axis}_#{$size} { padding-top: $val !important; padding-bottom: $val !important; }
+            }
+         }
+      }
+   }
+   
+   .-s-p_1-2r { padding: 0.5rem !important; }
+   .-s-p_1-2  { padding: to-fixed(pow($fi1, 1)/2, 2) + rem !important; }
+   .-s-p_2-2  { padding: to-fixed(pow($fi1, 2)/2, 2) + rem !important; }
+   .-s-p_-2-2 { padding: to-fixed(pow($fi1, -2)/2, 2) + rem; }
+}
+
+@include -s450- {
+   .-s450-p_-1-2  { padding: to-fixed(pow($fi1, -1)/2, 2) + rem !important; }
+   .-s450-px_-1 { padding-left: to-fixed(pow($fi1, -1), 2) + rem !important; padding-right: to-fixed(pow($fi1, -1), 2) + rem !important; }
+   .-s450-px_-1-2 { padding-left: to-fixed(pow($fi1, -1)/2, 2) + rem !important; padding-right: to-fixed(pow($fi1, -1)/2, 2) + rem !important; }
+   // .-s450-p_2-2  { padding: to-fixed(pow($fi1, 2)/2, 2) + rem !important; }
+   // .-s450-p_-2-2 { padding: to-fixed(pow($fi1, -2)/2, 2) + rem; }
+}
+
+.pt_2px     { padding-top: 2px; }
+.p_-1-2    { padding: to-fixed(pow($fi1, -1)/2, 2) + rem; box-sizing: border-box; }
+.p_-2-2    { padding: to-fixed(pow($fi1, -2)/2, 2) + rem; box-sizing: border-box; }
+.p_1r       { padding: 1rem; box-sizing: border-box; }
+.p_1-2r    { padding: 0.5rem; box-sizing: border-box; }
+.px_1-2r   { padding-left: 0.5rem; padding-right: 0.5rem; box-sizing: border-box; }
+.py_1-2r   { padding-top: 0.5rem; padding-bottom: 0.5rem; box-sizing: border-box; }
+.px_1r      { padding-left: 1rem; padding-right: 1rem; box-sizing: border-box; }
+.py_1r      { padding-top: 1rem; padding-bottom: 1rem; box-sizing: border-box; }
+.py_09r     { padding-top: 0.9rem; padding-bottom: 0.9rem; box-sizing: border-box; }
+.p_1-2     { padding: to-fixed(pow($fi1, 1)/2, 2) + rem; box-sizing: border-box; }
+.p_2-2     { padding: to-fixed(pow($fi1, 2)/2, 2) + rem; box-sizing: border-box; }
+.px_-1-2   { padding-left: to-fixed(pow($fi1, -1)/2, 2) + rem; padding-right: to-fixed(pow($fi1, -1)/2, 2) + rem; box-sizing: border-box; }
+.py_-1-2   { padding-top: to-fixed(pow($fi1, -1)/2, 2) + rem; padding-bottom: to-fixed(pow($fi1, -1)/2, 2) + rem; box-sizing: border-box; }
+.px_1-2    { padding-left: to-fixed(pow($fi1, 1)/2, 2) + rem; padding-right: to-fixed(pow($fi1, 1)/2, 2) + rem; box-sizing: border-box; }
+.px_2-2    { padding-left: to-fixed(pow($fi1, 2)/2, 2) + rem; padding-right: to-fixed(pow($fi1, 2)/2, 2) + rem; box-sizing: border-box; }
+.py_2-2    { padding-top: to-fixed(pow($fi1, 2)/2, 2) + rem; padding-bottom: to-fixed(pow($fi1, 2)/2, 2) + rem; box-sizing: border-box; }
+.px_3-2     { padding-left: $fi3 - $fi2/2 + rem; padding-right: $fi3 - $fi2/2 + rem; }
+.py_3       { padding-top: $fi3 + rem; padding-bottom: $fi3 + rem; }
+.py_4       { padding-top: $fi4 + rem; padding-bottom: $fi4 + rem; }
+
+// Percents for images proportions
+.pb_321p    { padding-bottom: 32.1%; }
+.pb_10p     { padding-bottom: 10%; }
+.pb_16p     { padding-bottom: 16.6666%; }
+.pb_25p     { padding-bottom: 25%; }
+.pb_27p     { padding-bottom: 27%; }
+.pb_28p     { padding-bottom: 28%; }
+.pb_33p     { padding-bottom: 33.3333%; }
+.pb_35p     { padding-bottom: 35%; }
+.pb_100p    { padding-bottom: 100%; }
+.pb_36p     { padding-bottom: 36%; }
+.pb_44p     { padding-bottom: 44.4444%; }
+.pb_50p     { padding-bottom: 50%; }
+.pb_66p     { padding-bottom: 66.6666%; }
+
+@include -s1440- {
+   .px_3-2 { padding-left: $fi2/2 + rem !important; padding-right: $fi2/2 + rem !important; }
+}
+
+@include -xl- {
+   .px_3-2  { padding-left: $fi1/2 + rem !important; padding-right: $fi1/2 + rem !important; }
+   .-xl-p_0 { padding: 0 !important; }
+}
+
+@include -l- { // <= 1023px
+   .-l-p_0  { padding: 0 !important; }
+}
+
+@include -m- { // <= 767px
+   .-m-p_0     { padding: 0 !important; }
+   .-m-px_0    { padding-left: 0 !important; padding-right: 0 !important; }
+   .-m-pb_66p  { padding-bottom: 66.6666% !important; }
+
+}
+
+@include -s- { // <= 639px
+   .px_3-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+
+   .-s-p_0     { padding: 0 !important; }
+   .-s-px_0    { padding-left: 0 !important; padding-right: 0 !important; }
+   .-s-p_-1    { padding: 1/$fi1 + rem !important; }
+   .-s-p_1-2r { padding: 1/2 + rem !important; }
+   .-s-p_-1-2 { padding: 1/$fi1/2 + rem !important; }
+}
+
+@include -s400- {
+   .px_3-2 { padding-left: 1/$fi1/2 + rem; padding-right: 1/$fi1/2 + rem; }
+}
+
+@include -xs- { // <= 339px
+   .-xs-p_0     { padding: 0 !important; }
+}

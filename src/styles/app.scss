@@ -1,0 +1,115 @@
+@import "normalize";
+@import "mixins";
+@import "screen-sizes";
+
+html {
+   // height: 100%;
+   margin: 0;
+   padding: 0;
+   // margin-left: calc(100vw - 100%);
+   color: $black50;
+   font-size: $font-base;
+   line-height: $fi1 + em;
+   // overflow-y: scroll; // to force scroll and fix horizontal jumping when filtering content
+}
+
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   cursor: default;
+   font-family: "Main-Regular", Tahoma, Arial, sans-serif;
+   line-height: 1.65em;
+   // letter-spacing: 0.01em;
+   // background-color: $gray248;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
+
+   background-color: var(--bg, $gray245);
+   // color: var(--bg-text, $black50);
+
+   @include -xl- {
+      font-size: 13px;
+   }
+
+   @include -s- {
+      // font-size: 13.4px;
+   }
+
+   @include -xs- {
+      font-size: 12px;
+   }
+
+   @include -s400- {
+      font-size: 11px;
+   }
+
+   @include -xxs- {
+      font-size: 9px;
+   }
+}
+
+#root { height: 100%; }
+
+hr {
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid $gray200;
+   margin: 1em 0;
+   padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+   vertical-align: middle;
+}
+
+fieldset {
+   border: 0;
+   margin: 0;
+   padding: 0;
+}
+
+::-moz-selection {
+   text-shadow: none;
+   color: $white;
+   background-color: $accent;
+}
+
+::selection {
+   text-shadow: none;
+   color: $white;
+   background-color: $accent;
+}
+.cloud_01 {
+   border-radius: 0%;
+   transform: translate(-40vw, -45vh);
+   // filter: url(#cloud-filter);
+   z-index: 1;
+   width: 50%;
+   height: 50%;
+   background: transparent;
+   box-shadow: rgb(255, 255, 255) 60vw 65vh 59px 0px;
+}
+
+@import "backgrounds";
+@import "buttons";
+@import "borders";
+@import "colors";
+@import "dimensions";
+@import "flexbox";
+@import "icons";
+@import "layout";
+@import "margins";
+@import "paddings";
+@import "scroll";
+@import "shadows";
+@import "transitions";
+@import "typography";
+@import "unsupport";

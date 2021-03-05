@@ -1,0 +1,31 @@
+@import '../../../styles/mixins.scss';
+
+.IconCancel {
+   position: relative;
+   width: 22px;
+   height: 22px;
+   border-radius: 22px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: none;
+
+   .s {
+      stroke: $gray100 !important;
+   }
+
+   &:hover {
+      .s {
+         stroke: $accent !important;
+      }
+   }
+}
+
+.Icon_isDisabled {
+   pointer-events: none;
+   box-shadow: $shadow-transparent;
+
+   .s {
+      stroke: $gray215 !important;
+   }
+}

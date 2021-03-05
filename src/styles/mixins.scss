@@ -1,0 +1,161 @@
+@import '_include-media';
+
+// =========================
+// COLORS
+// =========================
+
+$accent: rgb(25, 100, 245);
+$accentNew: rgb(27, 60, 227);
+$accent-hover: rgb(30, 125, 255);
+$skyblue: rgb(50, 100, 250);
+$blue: rgb(20, 40, 200);
+// $accent: rgb(50,0,175);
+$violet: rgb(150, 0, 250);
+$redlight: rgb(245, 0, 30);
+$redlight-hover: rgb(255, 10, 50);
+$red: rgb(200, 0, 25);
+$light-green: rgb(93, 217, 107);
+$sberbankInstH: rgb(88, 202, 63);
+$sberbankInst: rgb(68, 170, 46);
+$green: rgb(0, 175, 50);
+$sberbank: rgb(28, 159, 73);
+$sber-pokupay: rgb(0, 190, 100);
+$sber-pokupay--hover: rgb(70, 230, 140);
+$gold: rgb(250, 220, 150);
+$logo-black: rgb(35, 31, 32);
+$logo-orange: rgb(251, 176, 64);
+$orangelight: rgb(245, 175, 50);
+$orange: rgb(250, 150, 0);
+$white: rgb(255, 255, 255);
+$white-warm-254: rgb(254, 253, 253);
+$white252: rgb(252, 252, 252);
+$white250: rgb(250, 250, 250);
+$gray248: rgb(248, 248, 248);
+$gray245: rgb(245, 245, 245);
+$gray243: rgb(243, 243, 243);
+$gray242: rgb(242, 242, 242);
+$gray240: rgb(240, 240, 240);
+$gray235: rgb(235, 235, 235);
+$gray230: rgb(230, 230, 230);
+$gray225: rgb(225, 225, 225);
+$gray220: rgb(220, 220, 220);
+$gray215: rgb(215, 215, 215);
+$gray200: rgb(200, 200, 200);
+$gray175: rgb(175, 175, 175);
+$gray155: rgb(155, 155, 155);
+$gray150: rgb(150, 150, 150);
+$gray135: rgb(135, 135, 135);
+$gray125: rgb(125, 125, 125);
+$gray115: rgb(115, 115, 115);
+$gray100: rgb(100, 100, 100);
+$black75: rgb(75, 75, 75);
+$black50: rgb(50, 50, 50);
+$black25: rgb(25, 25, 25);
+$black: rgb(0, 0, 0);
+$transparent: rgba(255, 255, 255, 0);
+
+// =========================
+// SHADOWS
+// =========================
+
+$shadow-transparent: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+
+$shadow1: 0px 1px 1px 0px rgba(0, 0, 0, 0.18),
+0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+$shadow1-hover: 0px 1px 3px 0px rgba(0, 0, 0, 0.15),
+0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+
+$shadow2: 0px 1px 2px 0px rgba(0, 0, 0, 0.15),
+0px 0px 1px 0px rgba(0, 0, 0, 0.05);
+$shadow2-hover: 0px 2px 4px 0px rgba(0, 0, 0, 0.15),
+0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+
+$shadow3: 0px 2px 6px 0px rgba(0, 0, 0, 0.18),
+0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+$shadow3-hover: 0px 2px 10px 0px rgba(0, 0, 0, 0.15),
+0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+
+$shadow4: 0px 4px 12px 0px rgba(0, 0, 0, 0.18),
+0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+$shadow4-top: 0px -3px 6px 0px rgba(0, 0, 0, 0.075),
+0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+
+// =========================
+// EASES
+// =========================
+
+$gentleout: .11,.62,.3,.98;
+$expoout: .15,.85,.25,1;
+$bouncey: .1,.55,.3,1.6;
+
+// =========================
+// MIXINS
+// =========================
+
+@function pow($number, $exponent) {
+   $value: 1;
+
+   @if $exponent>0 {
+      @for $i from 1 through $exponent {
+         $value: $value * $number;
+      }
+   }
+
+   @else if $exponent < 0 {
+      @for $i from 1 through -$exponent {
+         $value: $value / $number;
+      }
+   }
+
+   @return $value;
+}
+
+@function to-fixed($float, $digits: 2) {
+   $sass-precision: 5;
+
+   @if $digits>$sass-precision {
+      @warn "Sass sets default precision to #{$sass-precision} digits, and there is no way to change that for now."
+      +"The returned number will have #{$sass-precision} digits, even if you asked for `#{$digits}`."
+      +"See https://github.com/sass/sass/issues/1122 for further informations.";
+   }
+
+   $pow: pow(10, $digits);
+
+   @return round($float * $pow) / $pow;
+}
+
+// =========================
+// CONSTANTS & DIMENSIONS
+// =========================
+
+$x: 1rem;
+
+$font-base: 15px;
+
+$sizes: -2,
+-1,
+1,
+2,
+3,
+4;
+// -2 = 1/$fi2
+// -1 = 1/$fi1
+// 1 = $fi1
+// 2 = $fi2
+// 3 = $fi3
+// 4 = $fi4
+
+$axises: x,
+y;
+
+$sides: top,
+right,
+bottom,
+left;
+
+$fi1: 1.62;
+$fi2: to-fixed(pow($fi1, 2), 2);
+$fi3: to-fixed(pow($fi1, 3), 2);
+$fi4: to-fixed(pow($fi1, 4), 2);
+$fi5: to-fixed(pow($fi1, 5), 2);
+$fi6: to-fixed(pow($fi1, 6), 2);

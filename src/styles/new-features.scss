@@ -1,0 +1,94 @@
+// scroll snap
+
+section {
+   overflow: auto;
+   scroll-behavior: contain;
+   scroll-snap-type: both mandatory;
+
+   picture {
+      scroll-snap-align: center;
+   }
+}
+
+// for corrent sublinks navigation using Tab
+li:focus-within>ul {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+// classic stiky or The Sticky Stack (siblings will stack)
+
+dl>dt {
+   position: sticky;
+   top: 0;
+}
+
+// <dl>
+//    <dt>A</dt>
+//    <dt>B</dt>
+// </dl>
+
+// -------------------------
+
+// The Sticky Slide 
+// cousing slide out and in
+
+// <dl>
+//    <dt>A</dt>
+// </dl>
+// <dl>
+//    <dt>A</dt>
+// </dl>
+
+// -------------------------
+
+// to use i.e. blur effect for the part of bg image
+
+.backdrop {
+   backdrop-filter: blur(2px);
+}
+
+// -------------------------
+// :is()
+
+button:is(.focus, :focus) {
+   outline: auto;
+}
+
+article> :is(h1, h2, h3) {
+   font-weight: bold;
+}
+
+// -------------------------
+// gap for flexbox
+
+.box-group {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+
+size {
+   size: 50vw;
+}
+
+iframe {
+   aspect-ratio: 16/9;
+}
+
+// min(), max(), clamp()
+
+h1 {
+   font-size: clamp(1.5rem, 6vw);
+}
+
+ul {
+   list-style-type: armenian;
+}
+
+// display outer inner
+
+section {
+   display: grid inline-flex;
+}

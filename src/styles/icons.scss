@@ -1,0 +1,716 @@
+.iconBtn {
+   position: relative;
+   width: 18px;
+   height: 18px;
+   background-position: center;
+   background-size: 18px 18px;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+
+.icon_white {
+   .icon-line {
+      background-color: $white !important;
+   }
+}
+
+.icon_svg {
+   width: 18px;
+   height: 18px;
+   flex-shrink: 0;
+}
+
+.iconBtn_deleteSm {
+   width: 13px;
+   height: 14px;
+   background-size: 13px 14px;
+   background-image: url(../images/svg/deleteSm.svg);
+}
+
+/* .iconBtn_rubleInline {
+   background-image: url(../images/svg/rubleInline.svg);
+}
+
+.iconBtn_rubleInlineB {
+   background-image: url(../images/svg/rubleInlineB.svg);
+} */
+
+// Icon for text
+
+.icon {
+   position: relative;
+   display: flex;
+   flex-flow: row nowrap;
+   box-sizing: border-box;
+   align-items: center;
+
+   &::before,
+   &::after {
+      // content: "";
+      width: 18px;
+      height: 18px;
+      flex: none;
+      margin-right: 1/$fi1 + rem;
+      // margin-right: 0.5rem;
+      transition: opacity .3s cubic-bezier($expoout);
+
+      
+   }
+
+   &::after {
+      // display: none;
+      position: absolute;
+      opacity: 0;
+   }
+
+   &.hover {
+      &:hover {
+         &::after {
+            opacity: 1;
+            transition: opacity .3s cubic-bezier($expoout);
+         }
+      }
+   }
+}
+
+@include -s450- {
+   .icon {
+      &::before,
+      &::after {
+         margin-right: 0.5rem !important;
+      }
+   }
+}
+
+@include -xs- {
+   .icon {
+      &::before,
+      &::after {
+         margin-right: 1/$fi2 + rem !important;
+      }
+   }
+}
+
+.icon__hover {
+   transition: color .3s cubic-bezier($expoout);
+
+   &:hover {
+      &::before {
+         opacity: 0;
+         transition: opacity .3s cubic-bezier($expoout);
+      }
+
+      &::after {
+         opacity: 1;
+         transition: opacity .3s cubic-bezier($expoout);
+      }
+   }
+}
+
+.icon_18 {
+   width: 18px;
+   height: 18px;
+   flex: none;
+   transition: .3s cubic-bezier($expoout);
+}
+
+.flag_24x14 {
+   width: 24px;
+   height: 14px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: 24px 14px;
+}
+
+/*! purgecss start ignore */
+
+$iconsBeforeText: addW,
+adults,
+adultsW,
+advice,
+applyB,
+applyW,
+attention,
+attentionB,
+attentionR,
+attentionW,
+back,
+backB,
+backW,
+baggage,
+baggageB,
+bankCardW,
+bath,
+bathB,
+beach,
+beachB,
+bed,
+bedB,
+callCenter,
+callCenterB,
+callCenterW,
+camera,
+cancelB,
+carryon,
+carryonB,
+certificate,
+changeTicket,
+changeTicketB,
+changeTicketG,
+children,
+closeW,
+continueB,
+continueW,
+date,
+dateB,
+dateEnd,
+dateEndB,
+dateEndW,
+dateFutureW,
+dateStart,
+dateStartB,
+dateStartW,
+dateW,
+deleteB,
+deleteW,
+discountB,
+discountW,
+diving,
+divingB,
+duration,
+edit,
+editW,
+enter,
+enterB,
+enterW,
+exitB,
+facebookB,
+filter,
+filterB,
+filterW,
+flightOut,
+flightOutB,
+flightOutW,
+flightOutDur,
+flightOutSeg,
+flightOutTime,
+flightRet,
+flightRetB,
+flightRetSeg,
+flightRetTime,
+googlePlusB,
+heart,
+heartB,
+heartFill,
+heartW,
+hotel,
+hotelB,
+hotelW,
+info,
+infoB,
+infoW,
+landing_outgoing,
+landing_return,
+location,
+locationW,
+locationB,
+meal,
+mealB,
+member,
+memberB,
+memberW,
+memo,
+menu,
+menuB,
+menuW,
+message,
+messageB,
+messageW,
+nights,
+nightsB,
+nightsW,
+phone,
+phoneB,
+phoneW,
+pool,
+poolB,
+price,
+priceB,
+priceR,
+priceW,
+place,
+placeW,
+placeB,
+question,
+refreshUpdatedApp,
+refreshUpdatedAppB,
+refreshUpdatedAppW,
+register,
+registerB,
+returnTicket,
+returnTicketB,
+returnTicketG,
+ruble,
+rubleB,
+rubleR,
+rubleW,
+sberIconGreen,
+sberIconW,
+search,
+searchW,
+searchB,
+faceSmile,
+faceSmileB,
+faceSmileW,
+faceNeutral,
+faceNeutralB,
+faceNeutralW,
+faceSad,
+faceSadB,
+faceSadW,
+sorting,
+square,
+squareB,
+squareW,
+takeoff_outgoing,
+takeoff_return,
+time,
+timeB,
+timeW,
+toBasket,
+toBasketB,
+toBasketW,
+tour,
+tourB,
+tourW,
+viewW,
+view,
+viewB,
+;
+
+@each $icon in $iconsBeforeText {
+   .icon_#{$icon} {
+      &::before {
+         content: url(../images/svg/#{$icon}.svg);
+      }
+   }
+}
+
+/*! purgecss end ignore */
+
+$airlines: 
+4U,
+5O,
+6H,
+7R,
+8Q,
+9U,
+9W,
+A2,
+A3,
+A5,
+A9,
+AA,
+AB,
+AC,
+AF,
+AI,
+AK,
+AM,
+AS,
+AT,
+AV,
+AY,
+AZ,
+B0,
+B2,
+B6,
+BA,
+BE,
+BT,
+CA,
+CX,
+CY,
+CZ,
+DD,
+DE,
+DL,
+DY,
+EI,
+EK,
+ET,
+EW,
+EY,
+F9,
+FJ,
+FR,
+FV,
+FZ,
+G4,
+GA,
+GF,
+GL,
+H1,
+H3,
+H9,
+HA,
+HR,
+HY,
+I4,
+IB,
+IG,
+IR,
+IZ,
+J2,
+J9,
+JE,
+JJ,
+JL,
+JP,
+JQ,
+JU,
+KC,
+KE,
+KK,
+KL,
+KM,
+KQ,
+LA,
+LG,
+LH,
+LO,
+LX,
+LY,
+ME,
+MH,
+MK,
+ML,
+MS,
+MU,
+NF,
+NN,
+Nordavia,
+NZ,
+OF,
+OK,
+OM,
+OS,
+OU,
+P7,
+PC,
+PG,
+PS,
+QF,
+QR,
+QS,
+RL,
+RO,
+S7,
+SK,
+SN,
+SQ,
+SS,
+ST,
+SU,
+TB,
+TG,
+TI,
+TK,
+TL,
+TN,
+TO,
+TP,
+TS,
+TU,
+TX,
+U2,
+U6,
+UA,
+UN,
+UT,
+UU,
+UX,
+V7,
+VL,
+VN,
+VV,
+VY,
+W6,
+WK,
+WW,
+WY,
+WZ,
+X9,
+XK,
+XY,
+YO,
+ZI
+;
+
+@each $airline in $airlines {
+   .airline_#{$airline} {
+      &::before {
+         content: url(../images/airlines/#{$airline}.svg);
+      }
+   }
+}
+
+.logo {
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 0% 50%;
+}
+
+.iconBtn_delete {
+   opacity: 0.5;
+   transition: opacity 0.3s cubic-bezier($expoout);
+
+   &:hover {
+      opacity: 1;
+   }
+}
+
+.ButtonIcon {
+   background-size: 18px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.itcon_fillGray {
+   fill: $gray175;
+   stroke: $gray175;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 2px;
+   transition: fill .3s, stroke .3s cubic-bezier($expoout);
+}
+
+.icon_fillB {
+   fill: $accent;
+   stroke: $accent;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 2px;
+   transition: fill .3s, stroke .3s cubic-bezier($expoout);
+}
+
+.icon_fill {
+   fill: $black50;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 2px;
+   transition: fill .3s, stroke .3s cubic-bezier($expoout);
+}
+
+.icon_stroke {
+   fill: none;
+   stroke: $black50;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 2px;
+   transition: fill .3s, stroke .3s cubic-bezier($expoout);
+}
+
+.icon_strokeB {
+   fill: none;
+   stroke: $accent;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 2px;
+   transition: fill .3s, stroke .3s cubic-bezier($expoout);
+}
+
+.icon_isDisabled {
+   .icon_fill {
+      opacity: 0.3;
+      pointer-events: none;
+   }
+
+   .icon_stroke {
+      opacity: 0.3;
+      pointer-events: none;
+   }
+
+   .icon_strokeB {
+      stroke: $black50;
+      opacity: 0.3;
+      pointer-events: none;
+   }
+}
+
+.icon-line {
+   position: absolute;
+   top: 50%;
+   left: 0;
+   width: 1rem;
+   height: 2px;
+   left: calc(50% - 0.5rem);
+   border-radius: 2px;
+   transition: background-color 0.15s, transform .3s cubic-bezier($expoout);
+}
+
+.PageMask {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 0;
+   background-color: rgba(250, 250, 250, 0.9);
+}
+
+.icon_delete {
+   &::before {
+      content: url(../images/svg/delete.svg);
+   }
+
+   &::after {
+      content: url(../images/svg/deleteB.svg);
+   }
+}
+
+.i {
+   // display: inline-block;
+   width: 18px;
+   height: 18px;
+
+   svg {
+      vertical-align: baseline;
+   }
+
+   &:hover {
+
+      .s,
+      .s_sqr {
+         stroke: $accent;
+      }
+
+      .f {
+         fill: $accent;
+      }
+   }
+}
+
+.i_b {
+
+   .s,
+   .s_sqr {
+      stroke: $accent;
+   }
+
+   .f {
+      fill: $accent;
+   }
+}
+
+.s,
+.s_sqr {
+   fill: none;
+   stroke: $black50;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 2px;
+   transition: all .3s cubic-bezier($expoout);
+}
+
+.s_100 {
+   stroke: $gray100;
+}
+
+.s_main {
+   stroke: $accent;
+}
+
+.s_sqr {
+   stroke-linecap: square;
+   stroke-linejoin: square;
+}
+
+.i_transparent {
+   stroke: rgba(0, 0, 0, 0);
+   fill: rgba(0, 0, 0, 0);
+}
+
+.f {
+   fill: $black50;
+   transition: all .3s cubic-bezier($expoout);
+}
+
+.f_y {
+   fill: #faaf41;
+}
+
+.f_logo-orange {
+   fill: $logo-orange;
+}
+
+.f_logo-black {
+   fill: $logo-black;
+}
+
+.f_w {
+   fill: $white;
+}
+
+.i_active {
+   .f {
+      fill: $accent;
+   }
+
+   .s {
+      stroke: $accent;
+   }
+}
+
+.i_activeW {
+   .f {
+      fill: $white;
+   }
+
+   .s {
+      stroke: $white;
+   }
+}
+
+.h--i:hover {
+   .s {
+      stroke: $accent;
+   }
+
+   .f {
+      fill: $accent;
+   }
+}
+
+svg {
+   vertical-align: top;
+}
+
+.SmartImage-Logo {
+   position: absolute;
+   top: 16.6666%;
+   right: 16.6666%;
+   bottom: 16.6666%;
+   left: 16.6666%;
+   background-image: url(../images/svg/logo_unicornHorseW.svg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   z-index: 2;
+   opacity: 0.5;
+   // mix-blend-mode: overlay;
+   transform-origin: center;
+}
+
+.Star {
+   width: 18px;
+   height: 18px;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url(../images/svg/starSm.svg);
+
+   &:last-child {
+      margin-right: 0;
+   }
+}

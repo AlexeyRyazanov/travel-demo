@@ -1,0 +1,101 @@
+.flex   { display: flex; }
+.inflex { display: inline-flex; flex-flow: row wrap }
+
+.row {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.col {
+   display: flex;
+   flex-flow: column nowrap;
+}
+
+.nowrap  { flex-wrap: nowrap; }
+
+.jc_sb  { justify-content: space-between; }
+.jc_st  { justify-content: stretch; }
+.jc_c   { justify-content: center; }
+.jc_fe  { justify-content: flex-end; }
+.jc_fs  { justify-content: flex-start; }
+
+.js_c   { justify-self: center; }
+.js_fs  { justify-self: flex-start; }
+.js_fe  { justify-self: flex-end; }
+
+.ai_c   { align-items: center; }
+.ai_b   { align-items: baseline; }
+.ai_fs  { align-items: flex-start; }
+.ai_fe  { align-items: flex-end; }
+.ai_st  { align-items: stretch; }
+
+.as_fs  { align-self: flex-start; }
+.as_c   { align-self: center; }
+.as_fe  { align-self: flex-end; }
+
+.shrink_a { flex-shrink: auto; }
+.shrink_0 { flex-shrink: 0; }
+.shrink_1 { flex-shrink: 1; }
+
+.grow_a  { flex-grow: auto; }
+.grow_0  { flex-grow: 0; }
+.grow_1  { flex-grow: 1; }
+.grow_2  { flex-grow: 2; }
+
+.flex_auto { flex: auto; }
+.flex_none { flex: none; }
+
+.flex_center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@include -xl- {
+   .-xl-row { display: flex !important; flex-flow: row wrap !important; }
+   .-xl-col { display: flex !important; flex-flow: column nowrap !important; }
+
+   .-xl-flex_center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+@include -l- {
+   .-l-row { display: flex !important; flex-flow: row wrap !important; }
+   .-l-col { display: flex !important; flex-flow: column nowrap !important; }
+
+   .-l-flex_center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+@include -m- {
+   .-m-row { display: flex !important; flex-flow: row wrap !important; }
+   .-m-col { display: flex !important; flex-flow: column nowrap !important; }
+
+   .-m-flex_center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+@include -s- {
+   .-s-row { display: flex !important; flex-flow: row wrap !important; }
+   .-s-col { display: flex !important; flex-flow: column nowrap !important; }
+
+   .-s-flex_center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .-s-ai_fs { align-items: flex-start; }
+   .-s-ai_fe { align-items: flex-end; }
+   .-s-flex_auto { flex: auto !important; }
+   .-s-order_1 { order: 1 !important; }
+}
