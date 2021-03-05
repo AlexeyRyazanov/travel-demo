@@ -137,33 +137,33 @@ module.exports = {
                      name: '[path][name].[ext]',
                   }
                },
-               {
-                  loader: 'image-webpack-loader',
-                  options: {
-                     mozjpeg: {
-                        progressive: true,
-                        quality: 85
-                     },
-                     optipng: {
-                        enabled: false,
-                     },
-                     pngquant: {
-                        quality: [0.65, 0.90],
-                        speed: 4
-                     },
-                     gifsicle: {
-                        interlaced: false,
-                     },
-                     svgo: {
-                        enabled: true,
-                        floatPrecision: 1,
-                     },
-                     // webp: {
-                     //    quality: 90,
-                     //    preset: 'picture'
-                     // }
-                  },
-               }
+               // {
+               //    loader: 'image-webpack-loader',
+               //    options: {
+               //       mozjpeg: {
+               //          progressive: true,
+               //          quality: 85
+               //       },
+               //       optipng: {
+               //          enabled: false,
+               //       },
+               //       pngquant: {
+               //          quality: [0.65, 0.90],
+               //          speed: 4
+               //       },
+               //       gifsicle: {
+               //          interlaced: false,
+               //       },
+               //       svgo: {
+               //          enabled: true,
+               //          floatPrecision: 1,
+               //       },
+               //       // webp: {
+               //       //    quality: 90,
+               //       //    preset: 'picture'
+               //       // }
+               //    },
+               // }
             ]
          },
 
